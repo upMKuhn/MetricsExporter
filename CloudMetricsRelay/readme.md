@@ -1,13 +1,13 @@
 # How to Run it locally:
 
 Please install websocat, docker-compose and docker!  
-| CMD | detail |
-| --------------- | ----------------------------------------------- |
-| `make up` | set up docker-compose env |
-| `make tail` | follow docker logs |
-| `make down` | stop env |
+| CMD              | detail                                          |
+| ---------------- | ----------------------------------------------- |
+| `make up`        | set up docker-compose env                       |
+| `make tail`      | follow docker logs                              |
+| `make down`      | stop env                                        |
 | `make send-tick` | send example message from sample_br_metric.json |
-| `make show-br` | Show current known version of B&R variables |
+| `make show-br`   | Show current known version of B&R variables     |
 
 # API
 
