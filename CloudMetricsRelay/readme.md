@@ -1,3 +1,6 @@
+# What is it
+The function of the MetricsRelay has the responsibillity of renaming internal variables from the variouse controllers in a readable fashion and pushing it to influxdb.  So that changes can be done without having to re-deploy any exporters.   
+
 # How to Run it locally  
 
 Please install websocat, docker-compose and docker!  
@@ -12,8 +15,8 @@ Please install websocat, docker-compose and docker!
 
 # API
 
--   Getting the latest metrics: `http://localhost:8080/<serviceName>/show-metrics`
--   pushing metrics `ws://localhost:8080/metrics` with the body
+-   Getting the latest metrics: `http://localhost:8001/<serviceName>/show-metrics`
+-   pushing metrics `ws://localhost:8001/metrics` with the body
 
 ```
 { "serviceName": "<serviceName>", "metrics":[], "location": "<Standort/Location of Metric Origin>" }
