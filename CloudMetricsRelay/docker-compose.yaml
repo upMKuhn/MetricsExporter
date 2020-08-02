@@ -17,6 +17,8 @@ services:
       - 8083:8083
   redis:
     image: redis
+    ports:
+    - 6379:6379
   metrics:
     build: 
       context: .
@@ -30,7 +32,6 @@ services:
       REDIS_HOST: "redis"
     ports:
       - 8002:8001
-      - 8080:80
     volumes:
       - ./:/app
 
