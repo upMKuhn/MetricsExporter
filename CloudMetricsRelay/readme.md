@@ -1,6 +1,7 @@
-# How to Run it locally:
+# How to Run it locally  
 
 Please install websocat, docker-compose and docker!  
+
 | CMD              | detail                                          |
 | ---------------- | ----------------------------------------------- |
 | `make up`        | set up docker-compose env                       |
