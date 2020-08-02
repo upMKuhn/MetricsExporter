@@ -1,0 +1,630 @@
+{
+    "lastUpdated": "2019-11-25T23:24:48.475Z",
+    "serviceName": "Kran_Metrics",
+    "metrics": [
+        {
+            "Name": "DB560_KRAN_STAT_DT_CHARGE_dtDateTime",
+            "Value": "2019-11-26T09:33:01.155",
+            "Type": "Date_And_Time",
+            "Description": "Date and Time",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB560_KRAN_STAT_DT_CHARGE_ERR_dtDateTime",
+            "Value": "2017-10-30T20:08:53.556",
+            "Type": "Date_And_Time",
+            "Description": "Date and Time",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB560_KRAN_STAT_RESET_CNT_CHARGEN",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB560_KRAN_STAT_RESET_CNT_CHARGEN_ERR",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB560_KRAN_STAT_SUMME_CHARGEN_24h",
+            "Value": 0,
+            "Type": "DInt",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB560_KRAN_STAT_SUMME_GEWICHT_24h",
+            "Value": 0,
+            "Type": "DInt",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB60_BTN_1Cycle",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "Taste 1 Zyklus starten",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB60_BTN_PARK",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "Taste Parkposition anfahren",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB60_BTN_SCAN",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "Taste Scannerfahrt starten",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB60_BTN_START",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB60_BTN_STOP",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB60_DSP_STAT_START",
+            "Value": 0,
+            "Type": "Int",
+            "Description": "Statusanzeige f�r START/STOP Tasten Visu",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB60_Greifer_kg",
+            "Value": 1178,
+            "Type": "DInt",
+            "Description": "Aktuelle Gewicht Greifer (Gesamtgewicht)",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB60_MODE_DSP",
+            "Value": 1,
+            "Type": "Int",
+            "Description": "Anzeige aktuelle Betriebsart",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB60_MODE_SCAN",
+            "Value": 1,
+            "Type": "Int",
+            "Description": "0: Aufnahmeposition �ber Scanner; 1: Aufnahmeposition im Versatzverfahren",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB60_MODE_SELECT",
+            "Value": 1,
+            "Type": "Int",
+            "Description": "Betriebsart Anwahl Aus/Hand/Auto",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB60_STB_Flags",
+            "Value": 0,
+            "Type": "Byte",
+            "Description": "Stauts Schalter/Taster Steuerbirne",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Greifer_Entlast_kg",
+            "Value": 500,
+            "Type": "DInt",
+            "Description": "Gewicht Greifer entlastet (unten)",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Greifer_min_kg",
+            "Value": 1350,
+            "Type": "DInt",
+            "Description": "Mindestgewicht Greifer mit Material",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Greifer_Senken",
+            "Value": 450,
+            "Type": "DInt",
+            "Description": "Greifer senken zum Entleeren",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Hub_EL_oben",
+            "Value": 270,
+            "Type": "DInt",
+            "Description": "Hub Position Endlage oben",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Hub_Speed_fast",
+            "Value": 600,
+            "Type": "Int",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Katze_POS_TOL",
+            "Value": 100,
+            "Type": "DInt",
+            "Description": "Zul. Positionstoleranz Katze +/-",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Katze_Speed_fast",
+            "Value": 500,
+            "Type": "Int",
+            "Description": "Katze Geschwindigkeit schnell",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Katze_Speed_Fenster",
+            "Value": 300,
+            "Type": "Int",
+            "Description": "Katze Geschwindigkeit im Positionsfenster",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Katze_Speed_slow",
+            "Value": 300,
+            "Type": "Int",
+            "Description": "Katze Geschwindigkeit langsam",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Lim_Bunker_Ost",
+            "Value": 9700,
+            "Type": "DInt",
+            "Description": "Begrenzung Aufnahmeposition Bunker Ost (Achtung: +/- TOL)",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Lim_Bunker_West",
+            "Value": 3200,
+            "Type": "DInt",
+            "Description": "Begrenzung Aufnahmeposition Bunker West (Achtung: +/- TOL)",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Lim_Mess_Ost",
+            "Value": 9400,
+            "Type": "DInt",
+            "Description": "Begrenzung Messung Ost",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Lim_Mess_West",
+            "Value": 1100,
+            "Type": "DInt",
+            "Description": "Begrenzung Messung West",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Linie1_Feull_Voll",
+            "Value": 6000,
+            "Type": "DInt",
+            "Description": "Trichter Linie1: F�llstand voll",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Linie1_Fuell_Fuell",
+            "Value": 5150,
+            "Type": "DInt",
+            "Description": "Trichter Linie1: F�llstand nachf�llen",
+            "Unit": "kg",
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Linie1_Fuell_Leer",
+            "Value": 4750,
+            "Type": "DInt",
+            "Description": "Trichter Linie1: F�llstand leer",
+            "Unit": "kg",
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Linie1_Pos",
+            "Value": 12700,
+            "Type": "DInt",
+            "Description": "Position Vergaserlinie 1",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Linie2_Pos",
+            "Value": 17200,
+            "Type": "DInt",
+            "Description": "Position Vergaserlinie 2",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Linie3_pos",
+            "Value": 0,
+            "Type": "DInt",
+            "Description": "Position Vergaserlinie 3",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_Park_POS",
+            "Value": 11600,
+            "Type": "DInt",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_RES68",
+            "Value": 0,
+            "Type": "Int",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_T_Greif_leer",
+            "Value": 10,
+            "Type": "DInt",
+            "Description": "Wartezeit bis Greifer leer",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_T_Greif_open",
+            "Value": 25,
+            "Type": "DInt",
+            "Description": "Greifer �ffnungszeit �ber Trichter",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_T_Hub_ab_max",
+            "Value": 80,
+            "Type": "DInt",
+            "Description": "maximale Senkzeit bis greifen",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_T_Hub_auf_max",
+            "Value": 200,
+            "Type": "DInt",
+            "Description": "Hubzeit max (Fehlerabschaltung)",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_T_Hub_mess",
+            "Value": 15,
+            "Type": "DInt",
+            "Description": "Hubzeit vor Gewichtsmessung",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_T_SRK_FB74_mmss",
+            "Value": 1000,
+            "Type": "DInt",
+            "Description": "Zeit�berwachung: FB74 Schrittkette wiegen bei Aufnehmen",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_T_SRK_FB76_mmss",
+            "Value": 2000,
+            "Type": "DInt",
+            "Description": "Zeit�berwachung: FB76 Hauptschrittkette Automatik",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_T_SRK_FB77_mmss",
+            "Value": 1000,
+            "Type": "DInt",
+            "Description": "Zeit�berwachung: FB77 Schrittkette Grundstellung fahren",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB61_KRAN_PARA_T_SRK_FB78_mmss",
+            "Value": 1000,
+            "Type": "DInt",
+            "Description": "Zeit�berwachung: FB78 Schrittkette Scannerfahrt (F�llh�he Bunker)",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB64_Katze_BTN_HAND_RW",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB64_Katze_BTN_HAND_VW",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB64_Katze_DSP_STATUS_MOTOR",
+            "Value": 0,
+            "Type": "Int",
+            "Description": "Anzeige Status Motor",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB64_Katze_DSP_TACHO_SPEED",
+            "Value": 0,
+            "Type": "DInt",
+            "Description": "Geschwindigkeit �ber Tachoauswertung [mm/min = m/min *1000]",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB64_Katze_POS_IST",
+            "Value": 11657,
+            "Type": "DInt",
+            "Description": "Istposition Katze",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB64_Katze_POS_SOLL",
+            "Value": 11600,
+            "Type": "DInt",
+            "Description": "Sollposition katze",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB66_Hub_BTN_HAND_RW",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB66_Hub_BTN_HAND_VW",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB66_Hub_DSP_STATUS_MOTOR",
+            "Value": 2,
+            "Type": "Int",
+            "Description": "Anzeige Status Motor",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB66_Hub_POS_IST",
+            "Value": 227,
+            "Type": "DInt",
+            "Description": "Istposition Katze",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB66_Hub_POS_SOLL",
+            "Value": 0,
+            "Type": "DInt",
+            "Description": "Sollposition katze",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB68_BTN_GREIFER_AUF",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB68_BTN_GREIFER_ZU",
+            "Value": false,
+            "Type": "Bool",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB68_DSP_GREIFER_STAT",
+            "Value": 0,
+            "Type": "Int",
+            "Description": "Greifer Status: 0=geschlossen; 1=offen",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB68_DSP_STATUS_MOTOR",
+            "Value": 0,
+            "Type": "Int",
+            "Description": "Anzeige Status Motor",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB70_DSP_SNR_FB76",
+            "Value": 1,
+            "Type": "Int",
+            "Description": "Anzeige Schrittnummer FB76: Automatikablauf Kran",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB70_Kurvenanforderung",
+            "Value": 0,
+            "Type": "Int",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB70_Kurventranfer",
+            "Value": 0,
+            "Type": "Int",
+            "Description": "",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB70_Laser_FuellH_IST",
+            "Value": 5153,
+            "Type": "DInt",
+            "Description": "Laserscanner F�llh�he ist [mm]",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB70_Laser_FuellH_IST_av",
+            "Value": 5151,
+            "Type": "DInt",
+            "Description": "Laserscanner F�llh�he ist [mm] gegl�ttet",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB70_LIM_Bunker_Ost_TOL",
+            "Value": 9800,
+            "Type": "DInt",
+            "Description": "Begrenzung Katze im Bunker Ost (=LimBunkerOst + TOL)",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB70_LIM_Bunker_West_TOL",
+            "Value": 3100,
+            "Type": "DInt",
+            "Description": "Begrenzung Katze im Bunker West (=LimBunkerWest - TOL)",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB76_GewLadungAbgeladen_kg",
+            "Value": 191,
+            "Type": "DInt",
+            "Description": "Gewicht der abgeladen Ladung",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB76_T_SENK_IST",
+            "Value": 25,
+            "Type": "DInt",
+            "Description": "akt. Senkzeit Greifer bis entlastet [s]",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB76_Ziel_HVG",
+            "Value": 1,
+            "Type": "Int",
+            "Description": "Ziel Vergaserlinie Nr. (Beschickungsziel)",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB79_DSP_SCAN_INDEX",
+            "Value": 96,
+            "Type": "Int",
+            "Description": "Anzeige aktueller ScanIndex Array",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB79_IdxMax",
+            "Value": 1,
+            "Type": "Int",
+            "Description": "F�llh�he ArrayIndex Kurve DB71 bei max Schleppzeiger",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB79_POS_AUFN",
+            "Value": 9700,
+            "Type": "DInt",
+            "Description": "Aufnhameposition (Position IndexMax von SCAN)",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB79_PosMax",
+            "Value": 9358,
+            "Type": "DInt",
+            "Description": "F�llh�he Position Katze bei max. Schleppzeiger",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB79_SchleppHmax",
+            "Value": 569,
+            "Type": "DInt",
+            "Description": "F�llh�he max. Schleppzeiger",
+            "Unit": null,
+            "Namespace": "Kran"
+        },
+        {
+            "Name": "DB92_DSP_FUELL_IST",
+            "Value": 32,
+            "Type": "DInt",
+            "Description": "F�llstand ist %",
+            "Unit": null,
+            "Namespace": "Kran"
+        }
+    ]
+}

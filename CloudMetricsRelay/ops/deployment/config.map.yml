@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: metrics-relay
+  labels:
+    app: myapplication
+data:
+  REDIS_HOST: redis-powercraft-master
+  REDIS_PORT: "6379"
+  REDIS_DB: "0"
+  DEFAULT_LOCATION: pinzberg
+  DEFAULT_LINIE: "1"
+  INFLUX_HOST: tick-influxdb.monitoring
+  INFLUX_DB: powercraft_pinzberg
+  INFLUX_KPI_DB: powercraft_kpi
+  INFLUX_PORT: "8086"

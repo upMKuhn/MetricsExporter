@@ -1,0 +1,18 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: "holzgas-monitor"
+  labels:
+    release: metrics
+spec:
+  selector:
+    matchLabels:
+      app: metrics-relay
+  endpoints:
+    - port: http
+      interval: 60s
+      path: /metrics
+      scheme: http
+  namespaceSelector:
+    matchNames:
+      - powercraft

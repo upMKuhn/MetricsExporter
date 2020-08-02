@@ -1,0 +1,21 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: traefik-dashboard
+  namespace: traefik
+spec:
+  entryPoints:
+    - web
+    - websecure
+    - traefik
+  routes:
+    - kind: Rule
+      match: Host(`traefik.kuhn.host`) && PathPrefix(`/metrics-relay`)
+      services:
+        - kind: Service
+          name: metrics-relay
+          namespace: powercraft
+  tls:
+    - hosts:
+        - pinzberg.kuhn.host
+      secretName: pinzberg-relay-tls

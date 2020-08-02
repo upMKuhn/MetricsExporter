@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/packages/**
+**/bin/**
+**/obj/**
+CloudMetricsRelay/node_modules/**
+/packages/log4net.2.0.8
+CloudMetricsRelay/src/node_modules/**

@@ -1,0 +1,49 @@
+version: "3.7"
+services:
+  chronograf:
+    image: chronograf
+    volumes:
+      - /var/lib/chronograf
+    ports:
+      - "8888:8888"
+    links:
+      - influxdb
+  influxdb:
+    image: influxdb
+    environment:
+      INFLUXDB_ADMIN_ENABLED: "true"
+    ports:
+      - 8086:8086
+      - 8083:8083
+  redis:
+    image: redis
+  metrics:
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    depends_on:
+      - redis
+      - influxdb
+    restart: on-failure
+    environment:
+      INFLUX_HOST: "influxdb"
+      REDIS_HOST: "redis"
+    ports:
+      - 8002:8001
+      - 8080:80
+    volumes:
+      - ./:/app
+
+  metrics_migration:
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    depends_on:
+      - redis
+      - influxdb
+    restart: on-failure
+    environment:
+      INFLUX_HOST: "influxdb"
+      REDIS_HOST: "redis"
+
+    command: [ls,-lha]

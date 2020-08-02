@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="S7ExporterService" GeneratedClassName="S7ExporterServiceSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PoolIntervalMs" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="MetricsWsEndpoint" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ws://pinzberg.kuhn.host/metrics-relay/metrics</Value>
+    </Setting>
+    <Setting Name="MetricsWsPingIntervalSec" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="S7IpAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.20.2</Value>
+    </Setting>
+    <Setting Name="Location" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Pinzberg</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

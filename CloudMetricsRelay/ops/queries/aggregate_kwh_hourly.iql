@@ -1,0 +1,8 @@
+CREATE CONTINUOUS QUERY aggregate_hourly_energy_production ON "powercraft_pinzberg"
+RESAMPLE EVERY 1h
+BEGIN
+    SELECT mean(*) INTO "powercraft_kpi"."autogen"."hourly_energy_production" FROM "powercraft_pinzberg"."autogen"."energy_production" 
+    GROUP BY time(1h)  
+    FILL(none)
+END
+

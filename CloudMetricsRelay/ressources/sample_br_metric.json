@@ -1,0 +1,6894 @@
+{
+    "lastUpdated": "2019-11-25T23:24:48.475Z",
+    "serviceName": "BR_Metrics",
+    "metrics": [
+        {
+            "Name": "Sende Nachricht aktiv",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 4
+        },
+        {
+            "Name": "Benutzername",
+            "Value": "0000",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 7
+        },
+        {
+            "Name": "Benutzer vollständiger Name",
+            "Value": "SYSTEM",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 8
+        },
+        {
+            "Name": "Freier Hauptspeicher [%]",
+            "Value": 59,
+            "Type": "UDINT",
+            "Unit": "%",
+            "PvId": 10
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_GTemp_nach_GT",
+            "Value": 55.5,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 21
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_GTemp_nach_GVK",
+            "Value": 190.10000000000002,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 22
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_GTemp_nach_GW",
+            "Value": 47.10000000000002,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 23
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_GTemp_vor_GVK",
+            "Value": 564,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 24
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_GTemp_vor_GW",
+            "Value": 3276.7000000000003,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 25
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_Heiz_Kalt",
+            "Value": 67.40000000000003,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 26
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_Heiz_Warm",
+            "Value": 69.80000000000001,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 27
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_Spruehk_GW_Kalt",
+            "Value": 3276.7000000000003,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 28
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_Spruehk_GW_Warm",
+            "Value": 49,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 29
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_vor_GT_Heiss",
+            "Value": 66.80000000000001,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 30
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_WT_GVK_Kalt_nM",
+            "Value": 92.69999999999999,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 31
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_WT_GVK_Kalt_vM",
+            "Value": 60.19999999999999,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 32
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_WT_GVK_Warm",
+            "Value": 98.69999999999999,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 33
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_WT_Kuehler_Kalt_nM",
+            "Value": 3276.7000000000003,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 34
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_WT_Kuehler_Kalt_vM",
+            "Value": 38.70000000000002,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 35
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_WT_Kuehler_Warm",
+            "Value": 66.5,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 36
+        },
+        {
+            "Name": "BR_CPU.SafetyPrg/Reset",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 37
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/HP_Vorkuehler_Panel.Drehzah_Istwert",
+            "Value": 1305,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 41
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/HP_Vorkuehler_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 43
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/HP_Vorkuehler_Panel.Betrieb",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 44
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/HP_Gastrockner_Panel.Betrieb",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 48
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/HP_Gastrockner_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 49
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/HP_Gastrockner_Panel.Drehzah_Istwert",
+            "Value": 1650,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 51
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/HP_Gaswaescher_Panel.Betrieb",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 56
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/HP_Gaswaescher_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 57
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/HP_Gaswaescher_Panel.Drehzah_Istwert",
+            "Value": 2154,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 59
+        },
+        {
+            "Name": "BR_CPU.Druck/GDruck_nach_Gastrockner",
+            "Value": -75,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 73
+        },
+        {
+            "Name": "BR_CPU.Druck/GDruck_vor_Gastrockner",
+            "Value": -86,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 75
+        },
+        {
+            "Name": "BR_CPU.Druck/WDruck_Spruehk_GW_Warm",
+            "Value": 1.6,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 76
+        },
+        {
+            "Name": "BR_CPU.Druck/WDruck_WT_GVK_Kalt_nM",
+            "Value": 3.1,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 77
+        },
+        {
+            "Name": "BR_CPU.Druck/WDruck_WT_Kuehler_Kalt_vM",
+            "Value": 1.6,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 78
+        },
+        {
+            "Name": "Test",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "",
+            "PvId": 88
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_Gastemp_Vergaser_links",
+            "Value": 476.8000000000002,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 89
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_Gastemp_Vergaser_rechts",
+            "Value": 484.3000000000002,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 90
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_Temp_Flamme",
+            "Value": 9,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 91
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[0]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 92
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[10]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 93
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[11]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 94
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[12]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 95
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[13]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 96
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[14]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 97
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[15]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 98
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[16]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 99
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[17]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 100
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[18]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 101
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[19]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 102
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[1]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 103
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[20]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 104
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[21]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 105
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[22]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 106
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[23]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 107
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[24]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 108
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[25]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 109
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[26]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 110
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[27]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 111
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[28]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 112
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[29]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 113
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[2]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 114
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[30]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 115
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[31]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 116
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[32]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 117
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[33]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 118
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[34]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 119
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[35]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 120
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[36]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 121
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[37]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 122
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[38]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 123
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[39]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 124
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[3]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 125
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[40]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 126
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[41]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 127
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[42]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 128
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[43]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 129
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[44]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 130
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[45]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 131
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[46]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 132
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[47]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 133
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[48]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 134
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[49]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 135
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[4]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 136
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[5]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 137
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[6]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 138
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[7]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 139
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[8]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 140
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[9]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 141
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/DI_USV_Batterie_defekt",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 142
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/DI_USV_Batterieladung_niedrig",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 143
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/DI_USV_Netzausfall",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 144
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/DI_USV_Netzspannung_OK",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 145
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/DI_USV_Wechselrichterbetrieb",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 146
+        },
+        {
+            "Name": "BR_CPU._Ascheschn/Ascheschnecke_1_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 149
+        },
+        {
+            "Name": "BR_CPU._Aschesch1/Ascheschnecke_2_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 154
+        },
+        {
+            "Name": "BR_CPU.Faecherrue/Faecherruettler_Panel.Betrieb",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 158
+        },
+        {
+            "Name": "BR_CPU.Faecherrue/Faecherruettler_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 159
+        },
+        {
+            "Name": "BR_CPU.Faecherrue/Faecherruettler_Panel.Rechtslauf",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 161
+        },
+        {
+            "Name": "BR_CPU.Ueberleits/Ueberleitschnecke_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 164
+        },
+        {
+            "Name": "BR_CPU.Filterstau/Filterstaubschnecke_1_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 169
+        },
+        {
+            "Name": "BR_CPU.Kondensats/Kondensatschnecke_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 174
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Trichterbrueckenbrecher_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 180
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Trichterbrueckenbrecher_Panel.Endlage_ausgefahren",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 182
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Trichterbrueckenbrecher_Panel.Endlage_eingefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 183
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Trichterbrueckenbrecher",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 185
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Schieberventil",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 186
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Schieberventil_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 189
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Schieberventil_Panel.Endlage_ausgefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 191
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Schieberventil_Panel.Endlage_eingefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 192
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Klappe_1",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 194
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Klappe_2",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 195
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Klappe_1_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 198
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Klappe_1_Panel.Endlage_ausgefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 200
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Klappe_1_Panel.Endlage_eingefahren",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 201
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Klappe_2_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 205
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Klappe_2_Panel.Endlage_ausgefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 207
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Klappe_2_Panel.Endlage_eingefahren",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 208
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Luftklappe_Ansaugkugeln",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 210
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Luftklappe_Ansaugkugeln_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 213
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DI_Z_Luftklappe_Ansaugkugel1_Ein",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 216
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DI_Z_Luftklappe_Ansaugkugel2_Ein",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 217
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DI_Z_Luftklappe_Ansaugkugel3_Ein",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 218
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DI_Z_Luftklappe_Ansaugkugel4_Ein",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 219
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Vollmelder",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 220
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Vollmelder_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 223
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Vollmelder_Panel.Endlage_ausgefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 225
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Vollmelder_Panel.Endlage_eingefahren",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 226
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Rostruettler",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 228
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Rostruettler_Panel.Betrieb",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 230
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Rostruettler_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 231
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Rostruettler_Panel.Endlage_ausgefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 233
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Rostruettler_Panel.Endlage_eingefahren",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 234
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Gasschieber_v_Fackel",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 236
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gasschieber_v_Fackel_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 239
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gasschieber_v_Fackel_Panel.Endlage_ausgefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 241
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gasschieber_v_Fackel_Panel.Endlage_eingefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 242
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Gasschieber_zur_GR",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 244
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gasschieber_zur_GR_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 247
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gasschieber_zur_GR_Panel.Endlage_ausgefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 249
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gasschieber_zur_GR_Panel.Endlage_eingefahren",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 250
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_Zuendtrafo",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 285
+        },
+        {
+            "Name": "BR_CPU.Trichter/Trichtergewicht",
+            "Value": 128,
+            "Type": "INT",
+            "Unit": "kg",
+            "PvId": 291
+        },
+        {
+            "Name": "BR_CPU.Gasgeblaes/Gasgeblaese_Panel.Betrieb",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 294
+        },
+        {
+            "Name": "BR_CPU.Gasgeblaes/Gasgeblaese_Panel.Betriebsart",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 295
+        },
+        {
+            "Name": "BR_CPU.Gasgeblaes/Gasgeblaese_Panel.Drehzah_Istwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 297
+        },
+        {
+            "Name": "BR_CPU.Gasgeblaes/Gasgeblaese_Panel.Strom_Istwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 300
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_KH_Kesseldruckentlastung",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 301
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Kesseldruckentlastung_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 304
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Kesseldruckentlastung_Panel.Endlage_ausgefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 306
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Kesseldruckentlastung_Panel.Endlage_eingefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 307
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Holz_Beladung",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 310
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_Oberflaeche_HV",
+            "Value": 40.80000000000018,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 319
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Gasschieber_v_Geblaese",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1316
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gasschieber_v_Geblaese_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1319
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gasschieber_v_Geblaese_Panel.Endlage_ausgefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1321
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gasschieber_v_Geblaese_Panel.Endlage_eingefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1322
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/Mischventil_Temp_GVK.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1332
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/Mischventil_Temp_GVK.Rueckmeldung",
+            "Value": 64,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 1333
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/Mischventil_Temp_GVK.Stellgroesse",
+            "Value": 59,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 1335
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Filterreinigung_1",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1336
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Filterreinigung_2",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1337
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Filterreinigung_3",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1338
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Filterreinigung_4",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1339
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Filterreinigung_5",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1340
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Filterreinigung_6",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1341
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Filterreinigung_7",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1342
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Reinigung_Gasreiniguler_Panel.Betrieb",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1351
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Reinigung_Gasreiniguler_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1352
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Reinigung_Gasreiniguler_Panel.Endlage_ausgefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1354
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Reinigung_Gasreiniguler_Panel.Endlage_eingefahren",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1355
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Reinigung_GVK",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1357
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/DI_Durchfluss_GVK",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1358
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/DI_SDB_Kuehlkreis_GVK",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1359
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/DI_STB_Kuehlkreis_GVK",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1360
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/HP_Heizkreis_Panel.Betrieb",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1362
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/HP_Heizkreis_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1363
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/HP_Heizkreis_Panel.Drehzah_Istwert",
+            "Value": 2233,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1365
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/DI_SDB_Heizkreis",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1369
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/DI_STB_Heizkreis",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1370
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/MV_Temp_GW_Spruehkuehlung.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1372
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/MV_Temp_GW_Spruehkuehlung.Rueckmeldung",
+            "Value": 71,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 1373
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/MV_Kuehler_Gastrockner.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1377
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/MV_Kuehler_Gastrockner.Rueckmeldung",
+            "Value": 75,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 1378
+        },
+        {
+            "Name": "BR_CPU.Kondensatp/DO_Kondensatpumpe",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1381
+        },
+        {
+            "Name": "BR_CPU.Kondensatp/Kondensatpumpe_Panel.Betriebsart",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1383
+        },
+        {
+            "Name": "BR_CPU.Kondensatp/DO_V_KH_Kondensatpumpe",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1386
+        },
+        {
+            "Name": "BR_CPU.Kondensatp/KH_Kondensatpumpe_Panel.Betriebsart",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1389
+        },
+        {
+            "Name": "BR_CPU.Kondensatp/KH_Kondensatpumpe_Panel.Endlage_ausgefahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1391
+        },
+        {
+            "Name": "BR_CPU.Kondensatp/KH_Kondensatpumpe_Panel.Endlage_eingefahren",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1392
+        },
+        {
+            "Name": "BR_CPU.Kondensatp/DI_Kondensattank_leer",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1394
+        },
+        {
+            "Name": "BR_CPU.Kondensatp/DI_Kondensattank_voll",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1395
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterreinigung_1_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1418
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterreinigung_2_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1422
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterreinigung_3_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1426
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterreinigung_4_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1430
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterreinigung_5_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1434
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterreinigung_6_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1438
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterreinigung_7_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1442
+        },
+        {
+            "Name": "BR_CPU.WP_Motorku/WP_Motorkuehlung_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1446
+        },
+        {
+            "Name": "BR_CPU.WP_Motorku/WP_Motorkuehlung_Panel.Drehzah_Istwert",
+            "Value": 1305,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1447
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Druck_Kompressor",
+            "Value": 3.4000000000000004,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 1451
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Kompressor_Panel.Betrieb",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1452
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Kompressor_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1453
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_Kompressor",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1457
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/GDruck_nach_Gasreinigu",
+            "Value": -66,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 1459
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/GDruck_vor_Gasreinigu",
+            "Value": -55,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 1460
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Filter_Druckdifferenz",
+            "Value": 11,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 1461
+        },
+        {
+            "Name": "BR_CPU.GasHauptGe/GasHauptGeblaese_Panel.Betrieb",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1465
+        },
+        {
+            "Name": "BR_CPU.GasHauptGe/GasHauptGeblaese_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1466
+        },
+        {
+            "Name": "BR_CPU.GasHauptGe/GasHauptGeblaese_Panel.Drehzah_Istwert",
+            "Value": 6789,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1468
+        },
+        {
+            "Name": "BR_CPU.BHKW/GDruck_nach_GasHauptgeblaese",
+            "Value": 1,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 1472
+        },
+        {
+            "Name": "BR_CPU.BHKW/GDruck_vor_GasHauptgeblaese",
+            "Value": -100,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 1473
+        },
+        {
+            "Name": "BR_CPU.BHKW/GDruck_vor_Heinzmannregler",
+            "Value": 0.4,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 1474
+        },
+        {
+            "Name": "BR_CPU.BHKW/Lambdasonde",
+            "Value": 1.556,
+            "Type": "INT",
+            "Unit": "λ",
+            "PvId": 1475
+        },
+        {
+            "Name": "BR_CPU.BHKW/OelDruck_nach_Filter",
+            "Value": 3.9000000000000004,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 1476
+        },
+        {
+            "Name": "BR_CPU.BHKW/OelDruck_vor_Filter",
+            "Value": 4,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 1477
+        },
+        {
+            "Name": "BR_CPU.BHKW/WDruck_Heizkreis_nach_Filter",
+            "Value": 1.7000000000000002,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 1478
+        },
+        {
+            "Name": "BR_CPU.BHKW/WDruck_Heizkreis_vor_Filter",
+            "Value": -2.5,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 1479
+        },
+        {
+            "Name": "BR_CPU.BHKW/WDruck_Kuehlkreis_Motor",
+            "Value": 2,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 1480
+        },
+        {
+            "Name": "BR_CPU.BHKW/WDruck_Pumpe_Heizkreis",
+            "Value": -2.5,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 1481
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_GasTemp_vor_GashauptGebl",
+            "Value": 50.40000000000009,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1482
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_OelTemp_nach_Filter",
+            "Value": 84.5,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1483
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_OelTemp_vor_Filter",
+            "Value": 92.19999999999982,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1484
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Abgas_nach_Abgas_WT",
+            "Value": 98.69999999999982,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1485
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Abgas_nach_Kat",
+            "Value": 419.5999999999999,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1486
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Abgas_nach_Turbo",
+            "Value": 433.5,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1487
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Abgas_vor_Turbo",
+            "Value": 495,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1488
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Zylinder_1",
+            "Value": 473.4000000000001,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1489
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Zylinder_2",
+            "Value": 479,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1490
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Zylinder_3",
+            "Value": 456.8000000000002,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1491
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Zylinder_4",
+            "Value": 495.3000000000002,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1492
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Zylinder_5",
+            "Value": 488.8000000000002,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1493
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Zylinder_6",
+            "Value": 494.4000000000001,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1494
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Zylinder_7",
+            "Value": 499.9000000000001,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1495
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_Temp_Zylinder_8",
+            "Value": 489.1999999999998,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1496
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_WTemp_Kuehlkreis_nach_AbgasWT",
+            "Value": 94.30000000000018,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1497
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_WTemp_Kuehlkreis_nach_Mischer",
+            "Value": 72.19999999999982,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1498
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_WTemp_Kuehlkreis_nach_Motor",
+            "Value": 85.69999999999982,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1499
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_WTemp_Kuehlkreis_vor_Mischer",
+            "Value": 45.19999999999982,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1500
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_WTemp_Ruecklauf_Heizkreis",
+            "Value": 73.5,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1501
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_WTemp_Vorlauf_Heizkreis",
+            "Value": 44.69999999999982,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1502
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_GTemp_nach_Ladeluft",
+            "Value": 47,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1503
+        },
+        {
+            "Name": "BR_CPU.BHKW/AI_RaumTemp_BHKW",
+            "Value": 36.69999999999982,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1504
+        },
+        {
+            "Name": "BR_CPU.BHKW/Mischventil_Gas_Hauptgas.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1510
+        },
+        {
+            "Name": "BR_CPU.BHKW/Mischventil_Gas_Hauptgas.Rueckmeldung",
+            "Value": 97,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 1511
+        },
+        {
+            "Name": "BR_CPU.BHKW/Mischventil_Gas_Kleingas.Betriebsart",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1515
+        },
+        {
+            "Name": "BR_CPU.BHKW/Mischventil_Gas_Kleingas.Rueckmeldung",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 1516
+        },
+        {
+            "Name": "BR_CPU.BHKW/Mischventil_Gas_Kleingas.Stellgroesse",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 1518
+        },
+        {
+            "Name": "BR_CPU.BHKW/Mischventil_Kuehlkreis_Motor.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1520
+        },
+        {
+            "Name": "BR_CPU.BHKW/Mischventil_Kuehlkreis_Motor.Rueckmeldung",
+            "Value": 46,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 1521
+        },
+        {
+            "Name": "BR_CPU.BHKW/Gasklappe_Hauptgas_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1526
+        },
+        {
+            "Name": "BR_CPU.BHKW/Gasklappe_Kleingas_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1532
+        },
+        {
+            "Name": "BR_CPU.BHKW/DI_Gasschieber_Hauptgas_AUF",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1538
+        },
+        {
+            "Name": "BR_CPU.BHKW/DI_Gasschieber_Hauptgas_ZU",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1539
+        },
+        {
+            "Name": "BR_CPU.BHKW/DI_Gasschieber_Kleingas_AUF",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1540
+        },
+        {
+            "Name": "BR_CPU.BHKW/DI_Gasschieber_Kleingas_ZU",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1541
+        },
+        {
+            "Name": "BR_CPU.BHKW/DO_MV_Gasschieber_Hauptgas",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1542
+        },
+        {
+            "Name": "BR_CPU.BHKW/DO_MV_Gasschieber_Kleingas",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1543
+        },
+        {
+            "Name": "BR_CPU.GasHauptGe/Sollwert_nach_GasHauptgeblaese",
+            "Value": 4,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 1544
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gasunterdruck_im_HV",
+            "Value": -16,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 1545
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gasunterdruck_nach_HV",
+            "Value": -29,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 1546
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_AussenleiterSpg_Gen_UG12",
+            "Value": 417,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1547
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_AussenleiterSpg_Gen_UG23",
+            "Value": 417,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1548
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_AussenleiterSpg_Gen_UG31",
+            "Value": 418,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1549
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_AussenleiterSpg_Netz_UN12",
+            "Value": 416,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1550
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_AussenleiterSpg_Netz_UN23",
+            "Value": 417,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1551
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_AussenleiterSpg_Netz_UN31",
+            "Value": 417,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1552
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_DiffSpg_Sync",
+            "Value": 1,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1553
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_DiffWinkel_Sync",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "°",
+            "PvId": 1554
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_Frequ_Generator",
+            "Value": 50,
+            "Type": "UINT",
+            "Unit": "Hz",
+            "PvId": 1555
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_Frequenz_Sync_1",
+            "Value": 50,
+            "Type": "UINT",
+            "Unit": "Hz",
+            "PvId": 1556
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_Frequenz_Sync_2",
+            "Value": 50,
+            "Type": "UINT",
+            "Unit": "Hz",
+            "PvId": 1557
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_Leistungsfaktor",
+            "Value": 0.9799999999999969,
+            "Type": "INT",
+            "Unit": "",
+            "PvId": 1558
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_Phasenstrom_Generator_I1",
+            "Value": 326,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 1559
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_Phasenstrom_Generator_I2",
+            "Value": 309,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 1560
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_Phasenstrom_Generator_I3",
+            "Value": 283,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 1561
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_StrangSpg_Generator_UG1",
+            "Value": 241,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1564
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_StrangSpg_Generator_UG2",
+            "Value": 241,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1565
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_StrangSpg_Generator_UG3",
+            "Value": 241,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1566
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_StrangSpg_Netz_UN1",
+            "Value": 240,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1567
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_StrangSpg_Netz_UN2",
+            "Value": 241,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1568
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_StrangSpg_Netz_UN3",
+            "Value": 241,
+            "Type": "INT",
+            "Unit": "V",
+            "PvId": 1569
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_Summenblindleistung_Q",
+            "Value": 41,
+            "Type": "INT",
+            "Unit": "kW",
+            "PvId": 1571
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_Summenscheinleistung_S",
+            "Value": 224,
+            "Type": "INT",
+            "Unit": "kW",
+            "PvId": 1572
+        },
+        {
+            "Name": "BR_CPU.Synchronis/AI_Summenwirkleistung_P",
+            "Value": 227,
+            "Type": "INT",
+            "Unit": "kW",
+            "PvId": 1573
+        },
+        {
+            "Name": "BR_CPU.Holztrockn/Holztrocknung_Panel.Betrieb",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1574
+        },
+        {
+            "Name": "BR_CPU.Holztrockn/Holztrocknung_Panel.Betriebsart",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1575
+        },
+        {
+            "Name": "BR_CPU.Holztrockn/Holztrocknung_Panel.Drehzah_Istwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1577
+        },
+        {
+            "Name": "BR_CPU.Holztrockn/Holztrocknung_Panel.Strom_Istwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 1580
+        },
+        {
+            "Name": "BR_CPU.BHKW/Sollwert_Kuehlkreis_Motor",
+            "Value": 72,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1582
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/Sollwert_Temp_GVK",
+            "Value": 190,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1583
+        },
+        {
+            "Name": "BR_CPU.BHKW/Sollwert_Lambda",
+            "Value": 1.487,
+            "Type": "INT",
+            "Unit": "λ",
+            "PvId": 1591
+        },
+        {
+            "Name": "BR_CPU._Aschesch1/DO_Ascheschnecke_2_RL",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1615
+        },
+        {
+            "Name": "BR_CPU._Ascheschn/DO_Ascheschnecke_1_RL",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1616
+        },
+        {
+            "Name": "BR_CPU.Ueberleits/DO_Ueberleitschnecke_RL",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1617
+        },
+        {
+            "Name": "BR_CPU.Filterstau/DO_Filterstaubschnecke_1_RL",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1618
+        },
+        {
+            "Name": "BR_CPU.Kondensats/DO_Kondensatschnecke_RL",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1619
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/CO_Gasreinigung_oben",
+            "Value": 37,
+            "Type": "INT",
+            "Unit": "ppm",
+            "PvId": 1623
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/CO_Gasreinigung_unten",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "ppm",
+            "PvId": 1624
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Warnung_CO2_GR_oben",
+            "Value": 200,
+            "Type": "INT",
+            "Unit": "ppm",
+            "PvId": 1625
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Warnung_CO2_GR_unten",
+            "Value": 250,
+            "Type": "INT",
+            "Unit": "ppm",
+            "PvId": 1626
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/Sollwert_Temp_GW",
+            "Value": 60,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1627
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/Sollwert_Temp_Kuehler",
+            "Value": 55,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1628
+        },
+        {
+            "Name": "BR_CPU.BHKW/Energie_KWH",
+            "Value": 10547412,
+            "Type": "UDINT",
+            "Unit": "kWh",
+            "PvId": 1629
+        },
+        {
+            "Name": "BR_CPU.BHKW/Diff_Oeldruck",
+            "Value": 0.10000000000000142,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 1647
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Diff_Kesseltemp",
+            "Value": -9.699999999999818,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1648
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Grenzwert_Zylinder_oben.Warnung",
+            "Value": 585,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1650
+        },
+        {
+            "Name": "BR_CPU.BHKW/Fehler_Zylinder",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1651
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[50]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1652
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[51]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1653
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[52]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1654
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[53]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1655
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[54]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1656
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[55]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1657
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[56]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1658
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[57]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1659
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[58]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1660
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[59]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1661
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[60]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1662
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[61]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1663
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[62]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1664
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[63]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1665
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[64]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1666
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[65]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1667
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[66]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1668
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[67]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1669
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[68]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1670
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[69]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1671
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[70]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1672
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[71]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1673
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[72]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1674
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[73]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1675
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[74]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1676
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[0]",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1677
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[10]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1678
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[11]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1679
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[12]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1680
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[13]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1681
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[14]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1682
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[15]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1683
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[16]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1684
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[17]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1685
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[18]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1686
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[19]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1687
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[1]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1688
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[20]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1689
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[21]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1690
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[22]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1691
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[23]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1692
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[24]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1693
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[25]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1694
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[26]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1695
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[27]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1696
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[28]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1697
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[29]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1698
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[2]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1699
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[30]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1700
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[31]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1701
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[32]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1702
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[33]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1703
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[34]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1704
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[35]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1705
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[36]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1706
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[37]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1707
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[38]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1708
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[39]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1709
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[3]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1710
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[40]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1711
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[41]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1712
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[42]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1713
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[43]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1714
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[44]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1715
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[45]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1716
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[46]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1717
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[47]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1718
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[48]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1719
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[49]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1720
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[4]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1721
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[50]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1722
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[51]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1723
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[52]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1724
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[53]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1725
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[54]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1726
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[55]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1727
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[56]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1728
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[57]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1729
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[58]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1730
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[59]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1731
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[5]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1732
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[60]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1733
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[61]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1734
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[62]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1735
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[63]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1736
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[64]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1737
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[65]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1738
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[66]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1739
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[67]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1740
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[68]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1741
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[69]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1742
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[6]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1743
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[70]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1744
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[71]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1745
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[72]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1746
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[73]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1747
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[74]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1748
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[7]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1749
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[8]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1750
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Warnungen[9]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1751
+        },
+        {
+            "Name": "BR_CPU.WP_Motorku/DI_STB_Kuehlkreis_Motor",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1753
+        },
+        {
+            "Name": "BR_CPU.WP_Motorku/DI_SDB_Kuehlkreis_Motor",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1754
+        },
+        {
+            "Name": "BR_CPU.WP_Motorku/DI_Durchfluss_Kuehlkreis_Motor",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1755
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/DI_Durchfluss_Heizkreis",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1756
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Filterreinigung.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1761
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Anzahl_Reinigungen",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1762
+        },
+        {
+            "Name": "BR_CPU.Raumluefte/Raumluefter_BHKW_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1765
+        },
+        {
+            "Name": "BR_CPU.Raumluefte/Raumluefter_BHKW_Panel.Drehzah_Istwert",
+            "Value": 243,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1766
+        },
+        {
+            "Name": "BR_CPU.Synchronis/DI_Synchron_Freigabe",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1774
+        },
+        {
+            "Name": "BR_CPU.Synchronis/Synchronbetrieb_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1790
+        },
+        {
+            "Name": "BR_CPU.BHKW/Ueberwachung_Oelddruck_aktiv",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1796
+        },
+        {
+            "Name": "BR_CPU.BHKW/intAusgang",
+            "Value": 100,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 1797
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Button_Direkt_Rostruettler.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1800
+        },
+        {
+            "Name": "BR_CPU.Faecherrue/Button_Direkt_Faecher.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1801
+        },
+        {
+            "Name": "BR_CPU._Ascheschn/Ascheschnecke_1_ET",
+            "Value": 35,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1802
+        },
+        {
+            "Name": "BR_CPU._Aschesch1/Ascheschnecke_2_ET",
+            "Value": 35,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1803
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Rostruettler_ET_Zyklus",
+            "Value": 2.106666666666667,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 1804
+        },
+        {
+            "Name": "BR_CPU.Faecherrue/Faecherruettler_ET_Zyklus",
+            "Value": 8.265,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 1805
+        },
+        {
+            "Name": "BR_CPU.Kondensats/Kondensatschnecke_ET_Zyklus",
+            "Value": 0.5074444444444444,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 1806
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/GVKReinigung_ET_Zyklus",
+            "Value": 0.21338888888888888,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 1807
+        },
+        {
+            "Name": "BR_CPU.Filterstau/Filterstaubschnecke_1_ET_Zyklus",
+            "Value": 50,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 1808
+        },
+        {
+            "Name": "BR_CPU.Ueberleits/Ueberleitschnecke_ET_Zyklus",
+            "Value": 5,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 1809
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Kesseldruckentlastung_ET",
+            "Value": 20,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 1850
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Zeit_Nachlauf_Druckentlastung",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1851
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Button_Kesseldruck_abbrechen.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1852
+        },
+        {
+            "Name": "BR_CPU.Kran/DI_Kran_FB_Aktiv",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1853
+        },
+        {
+            "Name": "BR_CPU.Kran/Kran_fahren_Panel.Betrieb",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1854
+        },
+        {
+            "Name": "BR_CPU.Kran/Kran_fahren_Panel.Betriebsart",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1855
+        },
+        {
+            "Name": "BR_CPU.Kran/Kran_fahren_Panel.Drehzah_Istwert",
+            "Value": 350,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1857
+        },
+        {
+            "Name": "BR_CPU.Kran/Kran_fahren_Panel.Strom_Istwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 1859
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Zuendflamme_gross",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1864
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_V_Zuendflamme_klein",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1865
+        },
+        {
+            "Name": "BR_CPU.Raumluefte/Sollwert_RaumTemp",
+            "Value": 35,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1870
+        },
+        {
+            "Name": "BR_CPU.Kran/Hubhoehe",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1873
+        },
+        {
+            "Name": "BR_CPU.Kran/Kran_heben_Panel.Betrieb",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1874
+        },
+        {
+            "Name": "BR_CPU.Kran/Kran_heben_Panel.Strom_Istwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 1880
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gewicht_Gesamt_Fuellung",
+            "Value": 7807186,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 1882
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gewicht_letzte_Fuellung",
+            "Value": 22,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 1883
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gewicht_nach_Fuellung",
+            "Value": 218,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 1884
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Gewicht_vor_Fuellung",
+            "Value": 243,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 1885
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzhoehe",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1891
+        },
+        {
+            "Name": "BR_CPU.Kran/KranPosition",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1892
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[0]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1893
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[10]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1894
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[11]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1895
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[12]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1896
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[13]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1897
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[14]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1898
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[15]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1899
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[16]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1900
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[17]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1901
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[18]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1902
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[19]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1903
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[1]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1904
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[20]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1905
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[21]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1906
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[22]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1907
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[23]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1908
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[24]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1909
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[25]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1910
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[26]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1911
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[27]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1912
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[28]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1913
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[29]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1914
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[2]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1915
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[30]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1916
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[31]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1917
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[32]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1918
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[33]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1919
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[34]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1920
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[35]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1921
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[36]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1922
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[37]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1923
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[38]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1924
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[39]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1925
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[3]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1926
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[40]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1927
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[41]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1928
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[42]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1929
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[4]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1937
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[5]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1948
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[6]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1959
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[7]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1961
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[8]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1962
+        },
+        {
+            "Name": "BR_CPU.Kran/Holzprofil[9]",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1963
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarm_result",
+            "Value": 0,
+            "Type": "DINT",
+            "Unit": "",
+            "PvId": 1970
+        },
+        {
+            "Name": "BR_CPU.Kran/GW",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1973
+        },
+        {
+            "Name": "BR_CPU.Kran/GW_POS",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1975
+        },
+        {
+            "Name": "BR_CPU.Kran/Gewicht_Schaufel",
+            "Value": 0,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 1980
+        },
+        {
+            "Name": "BR_CPU.Kran/DO_Kran_Hyd_Auf",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1982
+        },
+        {
+            "Name": "BR_CPU.Kran/DO_Kran_Hyd_Entlastung",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1983
+        },
+        {
+            "Name": "BR_CPU.Kran/DO_Kran_Hyd_Pumpe",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1984
+        },
+        {
+            "Name": "BR_CPU.Kran/DO_Kran_Hyd_Zu",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1985
+        },
+        {
+            "Name": "BR_CPU.Kran/Gewicht_Schaufel_Gesamt",
+            "Value": 0,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 1986
+        },
+        {
+            "Name": "BR_CPU.Kran/Gewicht_Schaufel_letztes",
+            "Value": 0,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 1987
+        },
+        {
+            "Name": "BR_CPU.Kran/Gewicht_Schaufel_n_Endladung",
+            "Value": 0,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 1988
+        },
+        {
+            "Name": "BR_CPU.Kran/Gewicht_Schaufel_v_Endladung",
+            "Value": 0,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 1989
+        },
+        {
+            "Name": "CPU_Status",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "",
+            "PvId": 1991
+        },
+        {
+            "Name": "BR_CPU.Raumlueft1/Raumluefter_GR_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1994
+        },
+        {
+            "Name": "BR_CPU.Raumlueft1/Raumluefter_GR_Panel.Drehzah_Istwert",
+            "Value": 142,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1995
+        },
+        {
+            "Name": "BR_CPU.Raumlueft1/Sollwert_RaumTemp",
+            "Value": 35,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1999
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Gewicht_minimum_Fuellung",
+            "Value": 2,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 2000
+        },
+        {
+            "Name": "BR_CPU.BHKW/CO_BHKW_unten",
+            "Value": 39,
+            "Type": "INT",
+            "Unit": "ppm",
+            "PvId": 2005
+        },
+        {
+            "Name": "BR_CPU.Kran/Kran_Fehlversuche",
+            "Value": 0,
+            "Type": "UINT",
+            "Unit": "",
+            "PvId": 2010
+        },
+        {
+            "Name": "BR_CPU.Kran/letzte_Schaufel",
+            "Value": 0,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 2011
+        },
+        {
+            "Name": "BR_CPU.Kran/Button_Kran_direkt.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2013
+        },
+        {
+            "Name": "BR_CPU.BHKW/Verzoegerung_Sollwert_Heinzmann",
+            "Value": 30,
+            "Type": "INT",
+            "Unit": "s",
+            "PvId": 2015
+        },
+        {
+            "Name": "BR_CPU.BHKW/AO_Heinzmann",
+            "Value": 14745,
+            "Type": "INT",
+            "Unit": "",
+            "PvId": 2016
+        },
+        {
+            "Name": "BR_CPU.BHKW/Heinzmann_Automatik",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2022
+        },
+        {
+            "Name": "BR_CPU.BHKW/Heinzmann_Soll",
+            "Value": 14745,
+            "Type": "INT",
+            "Unit": "",
+            "PvId": 2023
+        },
+        {
+            "Name": "BR_CPU.Analyse/Gasanalyse_CH4",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "Vol %",
+            "PvId": 2026
+        },
+        {
+            "Name": "BR_CPU.Analyse/Gasanalyse_CO",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "Vol %",
+            "PvId": 2027
+        },
+        {
+            "Name": "BR_CPU.Analyse/Gasanalyse_CO2",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "Vol %",
+            "PvId": 2028
+        },
+        {
+            "Name": "BR_CPU.Analyse/Gasanalyse_H2",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "Vol %",
+            "PvId": 2029
+        },
+        {
+            "Name": "BR_CPU.Analyse/Gasanalyse_O2",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "Vol %",
+            "PvId": 2030
+        },
+        {
+            "Name": "BR_CPU.Analyse/DI_GA_Sammelstoerung",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2031
+        },
+        {
+            "Name": "BR_CPU.Analyse/DI_GA_Sammelwartung",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2032
+        },
+        {
+            "Name": "BR_CPU.Analyse/DI_GA_Sammelwartungsbed",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2033
+        },
+        {
+            "Name": "BR_CPU.Analyse/DI_GA_Stoerung_H2_Messung",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2034
+        },
+        {
+            "Name": "BR_CPU.Analyse/DI_GA_Wartung_H2_Messung",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2035
+        },
+        {
+            "Name": "BR_CPU.Faecherrue/Button_FRG_Faecherruettler.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2037
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Button_FRG_Rostruettler.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2038
+        },
+        {
+            "Name": "BR_CPU.Raumlueft1/AI_RaumTemp_Gasreinigung",
+            "Value": 33,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 2039
+        },
+        {
+            "Name": "BR_CPU.Temperatur/AI_WTemp_Waermetauscher",
+            "Value": 52,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 2040
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Filterreinigung_aktiv",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2049
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Lueftungsklappe_oben_Panel.Ausfahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2050
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Lueftungsklappe_oben_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 2052
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Lueftungsklappe_unten_Panel.Ausfahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2054
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Lueftungsklappe_unten_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 2056
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/WDruck_Ausgleichsb",
+            "Value": 0.5,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 2058
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Button_Handabreinigen.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2059
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DO_Leuchte_HV_voll",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2060
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Zeit_Fehler_Kl_1_ET_Zyklus",
+            "Value": 120,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 2061
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Zeit_Fehler_Kl_2_ET_Zyklus",
+            "Value": 240,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 2062
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.GVK_WTemp_min",
+            "Value": 90,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 2091
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.GVK_WDruck_min",
+            "Value": 5,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 2093
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[11].Wartung_Istwert",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4103
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[1].Wartung_Istwert",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4106
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[2].Wartung_Istwert",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4109
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[3].Wartung_Istwert",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4112
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[4].Wartung_Istwert",
+            "Value": 142.20000000000002,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4115
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[5].Wartung_Istwert",
+            "Value": 142.20000000000002,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4118
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[6].Wartung_Istwert",
+            "Value": 142.20000000000002,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4121
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[7].Wartung_Istwert",
+            "Value": 142.20000000000002,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4124
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[8].Wartung_Istwert",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4127
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[9].Wartung_Istwert",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4130
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[0].Wartung_Istwert",
+            "Value": 142.20000000000002,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4132
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[0].Warnung",
+            "Value": 1200,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4133
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[10].Warnung",
+            "Value": 1000,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4134
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[11].Warnung",
+            "Value": 1000,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4135
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[1].Warnung",
+            "Value": 1000,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4136
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[2].Warnung",
+            "Value": 1500,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4137
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[3].Warnung",
+            "Value": 5000,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4138
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[4].Warnung",
+            "Value": 5000,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4139
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[5].Warnung",
+            "Value": 2000,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4140
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[6].Warnung",
+            "Value": 3000,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4141
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[7].Warnung",
+            "Value": 2000,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4142
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[8].Warnung",
+            "Value": 3000,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4143
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[9].Warnung",
+            "Value": 6500,
+            "Type": "UINT",
+            "Unit": "h",
+            "PvId": 4144
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Komponente_Betriebsstunden[10].Wartung_Istwert",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 4145
+        },
+        {
+            "Name": "Haeufigkeit_Trichterbrueckenbrecher",
+            "Value": 17349,
+            "Type": "LREAL",
+            "Unit": "Häufigkeit",
+            "PvId": 5150
+        },
+        {
+            "Name": "Haeufigkeit_Beschickung_HV",
+            "Value": 83942,
+            "Type": "LREAL",
+            "Unit": "Häufigkeit",
+            "PvId": 5151
+        },
+        {
+            "Name": "Haeufigkeit_Kranfahrt",
+            "Value": 46393,
+            "Type": "LREAL",
+            "Unit": "Häufigkeit",
+            "PvId": 5152
+        },
+        {
+            "Name": "Haeufigkeit_Filterreinigung",
+            "Value": 3192,
+            "Type": "LREAL",
+            "Unit": "Häufigkeit",
+            "PvId": 5153
+        },
+        {
+            "Name": "Haeufigkeit_Kondesatpumpe",
+            "Value": 191,
+            "Type": "LREAL",
+            "Unit": "Häufigkeit",
+            "PvId": 5154
+        },
+        {
+            "Name": "BR_CPU.Kran/Trichter_min_erreicht",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 6148
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filterreinigung_Variante",
+            "Value": 4,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 9170
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_Drosselklappe",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9171
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterreinigung_Drossel_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 9174
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Variante_2_Reihe",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 9175
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Zeitschaltuhr_Heizung.year",
+            "Value": 0,
+            "Type": "UINT",
+            "Unit": "",
+            "PvId": 9183
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Zeitschaltuhr_Heizung.month",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 9184
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Zeitschaltuhr_Heizung.day",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 9185
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Zeitschaltuhr_Heizung.hour",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 9186
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Zeitschaltuhr_Heizung.minute",
+            "Value": 76,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 9187
+        },
+        {
+            "Name": "BR_CPU.HK_Gastroc/Mischventil_HK_Gastrockner.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 9188
+        },
+        {
+            "Name": "BR_CPU.HK_Gastroc/Mischventil_HK_Gastrockner.Rueckmeldung",
+            "Value": 2,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 9190
+        },
+        {
+            "Name": "BR_CPU.HK_Gastroc/Sollwert_HK_Gastrockner",
+            "Value": 50,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 9192
+        },
+        {
+            "Name": "BR_CPU.HK_Gastroc/Wilopumpe_Gastrockner_Panel.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 9193
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/GVK_Heizung_Panel.Betriebsart",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 9202
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_Heizung",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9203
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[75]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9224
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Variante_3_Reihe",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 9235
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[76]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9236
+        },
+        {
+            "Name": "BR_CPU.Kran/Gewicht_Befuellung_Gesamt",
+            "Value": 0,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 9237
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[77]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9238
+        },
+        {
+            "Name": "BR_CPU.Faecherrue/Faecherruettler_Panel.Strom_Istwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 9240
+        },
+        {
+            "Name": "BR_CPU.Faecherrue/Faecherruettler_Panel.Drehzah_Istwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 9242
+        },
+        {
+            "Name": "Zeit_Synchron",
+            "Value": 35732.44376444445,
+            "Type": "LREAL",
+            "Unit": "Std.",
+            "PvId": 10241
+        },
+        {
+            "Name": "Haeufigkeit_Fehler_Klappe_1",
+            "Value": 534,
+            "Type": "LREAL",
+            "Unit": "Häufigkeit",
+            "PvId": 10242
+        },
+        {
+            "Name": "Haeufigkeit_Fehler_Klappe_2",
+            "Value": 0,
+            "Type": "LREAL",
+            "Unit": "Häufigkeit",
+            "PvId": 10243
+        },
+        {
+            "Name": "Haeufigkeit_Fehler_Kranzyklus",
+            "Value": 165,
+            "Type": "LREAL",
+            "Unit": "Häufigkeit",
+            "PvId": 10244
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/DI_Z_Vollmelder_Aus",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 10245
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Button_Deakt_Kessel_Ober_Temp",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 10249
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Deakt_Kessel_Ober_Temp",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 10250
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Deakt_Kessel_Ober_ET_Zyklus",
+            "Value": 80,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 10251
+        },
+        {
+            "Name": "Doku_Holzvergaser_Vergaser",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 10252
+        },
+        {
+            "Name": "BR_CPU.Dosierpump/Dosierpumpe_Panel.Betriebsart",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 10254
+        },
+        {
+            "Name": "BR_CPU.Dosierpump/Dosierpumpe_ET_Zyklus",
+            "Value": 24,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 10257
+        },
+        {
+            "Name": "Doku_Gasreinigung_Gasvorkuehler",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 10260
+        },
+        {
+            "Name": "Doku_Kran_Greifzange",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 10261
+        },
+        {
+            "Name": "Doku_Kran_Hydraulik",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 10262
+        },
+        {
+            "Name": "Doku_Kran_Heben",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11246
+        },
+        {
+            "Name": "Doku_Kran_Verfahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11247
+        },
+        {
+            "Name": "Doku_Kran_Laufbahn",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11248
+        },
+        {
+            "Name": "Doku_Kran_Sonstiges",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11249
+        },
+        {
+            "Name": "Doku_Holzvergaser_Faecherruettler",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11250
+        },
+        {
+            "Name": "Doku_Holzvergaser_Rostruettler",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11251
+        },
+        {
+            "Name": "Doku_Holzvergaser_Ascheschnecke_1",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11252
+        },
+        {
+            "Name": "Doku_Holzvergaser_Ascheschnecke_2",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11253
+        },
+        {
+            "Name": "Doku_Holzvergaser_Abfackelgeblase",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11254
+        },
+        {
+            "Name": "Doku_Holzvergaser_Fackel",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11255
+        },
+        {
+            "Name": "Doku_Holzvergaser_Holztrocknung",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11256
+        },
+        {
+            "Name": "Doku_Holzvergaser_Sonstiges",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11257
+        },
+        {
+            "Name": "Doku_Gasreinigung_Wasserkreis_GVK",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11258
+        },
+        {
+            "Name": "Doku_Gasreinigung_Ueberleitschnecke",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11259
+        },
+        {
+            "Name": "Doku_Gasreinigung_Gasfilter",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11260
+        },
+        {
+            "Name": "Doku_Gasreinigung_Kompressor",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11261
+        },
+        {
+            "Name": "Doku_Gasreinigung_Filterstaubschnecke",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11262
+        },
+        {
+            "Name": "Doku_Gasreinigung_Gaswaescher",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11263
+        },
+        {
+            "Name": "Doku_Gasreinigung_Wasserkreis_GW",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11264
+        },
+        {
+            "Name": "Doku_Gasreinigung_Kondensattank",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11265
+        },
+        {
+            "Name": "Doku_Gasreinigung_Wasserkreis_Gastrockner",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11267
+        },
+        {
+            "Name": "Doku_Gasreinigung_Wasserkreis_Kuehler",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11268
+        },
+        {
+            "Name": "Doku_Gasreinigung_Heizkreis",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11269
+        },
+        {
+            "Name": "Doku_Gasreinigung_Gastrockner",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11270
+        },
+        {
+            "Name": "Doku_Gasreinigung_Sicherheitsfilter",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11271
+        },
+        {
+            "Name": "Doku_Gasreinigung_Kondensatschnecke",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11272
+        },
+        {
+            "Name": "Doku_Gasreinigung_Dosierpumpe",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11273
+        },
+        {
+            "Name": "Doku_Gasreinigung_Schlammrueckfuehrpumpe",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11274
+        },
+        {
+            "Name": "Doku_Gasreinigung_Raumluefter",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11275
+        },
+        {
+            "Name": "Doku_Gasreinigung_Sonstiges",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11276
+        },
+        {
+            "Name": "Doku_BHKW_Hauptgasgeblase",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11277
+        },
+        {
+            "Name": "Doku_BHKW_Ladeluftkuehler",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11278
+        },
+        {
+            "Name": "Doku_BHKW_Turbolader",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11279
+        },
+        {
+            "Name": "Doku_BHKW_Wasserkreis_Motor",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11280
+        },
+        {
+            "Name": "Doku_BHKW_Ölkreislauf_Motor",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11281
+        },
+        {
+            "Name": "Doku_BHKW_Zündkerzen",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11282
+        },
+        {
+            "Name": "Doku_BHKW_Anlasser",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11283
+        },
+        {
+            "Name": "Doku_BHKW_Raumluefter",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11284
+        },
+        {
+            "Name": "Doku_BHKW_Sonstiges",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11285
+        },
+        {
+            "Name": "BR_CPU.Schlammpum/Schlammrueckpumpe_Panel.Betriebsart",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 11289
+        },
+        {
+            "Name": "BR_CPU.Schlammpum/Schlammrueckpumpe_ET_Zyklus",
+            "Value": 24,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 11291
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Leistung_Sollwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "kW",
+            "PvId": 11292
+        },
+        {
+            "Name": "BR_CPU.BHKW/Leistungsregelung_Aktiv",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11299
+        },
+        {
+            "Name": "BR_CPU.BHKW/Heinzmann_Plus_01",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11300
+        },
+        {
+            "Name": "BR_CPU.BHKW/Heinzmann_Plus_05",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11301
+        },
+        {
+            "Name": "BR_CPU.BHKW/Heinzmann_Minus_01",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11302
+        },
+        {
+            "Name": "BR_CPU.BHKW/Heinzmann_Minus_05",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11303
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Anzahl_Holzbefuellungen",
+            "Value": 386385,
+            "Type": "UDINT",
+            "Unit": "Häufigkeit",
+            "PvId": 11304
+        },
+        {
+            "Name": "BR_CPU.Betriebsst/Zeit_Synchron_Stunden",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "h",
+            "PvId": 11305
+        },
+        {
+            "Name": "BR_CPU.BHKW/Heinzmann_Regelung_Visu",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11306
+        },
+        {
+            "Name": "BR_CPU.Holztrockn/Sollwert_WTemp_Heizkreis",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 11307
+        },
+        {
+            "Name": "BR_CPU.BHKW/Lueftungsklappe_oben_Panel.Ausfahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 12305
+        },
+        {
+            "Name": "BR_CPU.BHKW/Lueftungsklappe_oben_Panel.Betriebsart",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 12307
+        },
+        {
+            "Name": "BR_CPU.BHKW/Lueftungsklappe_unten_Panel.Ausfahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 12312
+        },
+        {
+            "Name": "BR_CPU.BHKW/Lueftungsklappe_unten_Panel.Betriebsart",
+            "Value": 0,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 12314
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/AI_LTemp_Holztrocknung",
+            "Value": 3276.7,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 12320
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[99]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 12321
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[78]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 13305
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Endschalter_E_Klappe_2",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14309
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Endschalter_E_Klappe_1",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14310
+        },
+        {
+            "Name": "Datum_Monat",
+            "Value": "11",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 14315
+        },
+        {
+            "Name": "Ordnername_Komplett_Wochenreport",
+            "Value": "C:\\Export_Report",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 14316
+        },
+        {
+            "Name": "Datum_Jahr",
+            "Value": "2019",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 14317
+        },
+        {
+            "Name": "Datum_Tag",
+            "Value": "25",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 14318
+        },
+        {
+            "Name": "Systemzeit_PC",
+            "Value": "26.11.2019 00:20:02",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 14319
+        },
+        {
+            "Name": "Dateiname_Komplett_Wochenreport",
+            "Value": "Wochen_Report_2019_11_25.pdf",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 14320
+        },
+        {
+            "Name": "Datum_Stunde",
+            "Value": "",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 14321
+        },
+        {
+            "Name": "Pfadname_Komplett_Wochenreport",
+            "Value": "C:\\Export_Report\\Wochen_Report_2019_11_25.pdf",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 14322
+        },
+        {
+            "Name": "Report_Name_Woche",
+            "Value": "Wochen_Report",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 14323
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.BHKW_MK_WDruck_min",
+            "Value": 4.4,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 14327
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.BHKW_MK_WTemp_min",
+            "Value": 130,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 14329
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[98]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14330
+        },
+        {
+            "Name": "Zeit_Nicht_Synchron",
+            "Value": 10046.134327777778,
+            "Type": "LREAL",
+            "Unit": "Std.",
+            "PvId": 14331
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterreinigung_8_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 14334
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterreinigung_9_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 14337
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterreinigung_10_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 14340
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Filterreinigung_8",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14341
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Filterreinigung_9",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14342
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Filterreinigung_10",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14343
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/V_Filterrein_Drossel_Panel_Vor.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 14357
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_Drosselklappe_Vorne",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14358
+        },
+        {
+            "Name": "BR_CPU.Mittelwert/Sollwert_Lambda_Filter",
+            "Value": 1.579,
+            "Type": "INT",
+            "Unit": "λ",
+            "PvId": 14382
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Filter_Hinten_Reinigung_Start",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14383
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Filter_Vorne_Reinigung_Start",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14384
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Filterreinigung_Aktiv",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14385
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[80]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14387
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[81]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14388
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[82]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14389
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[83]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14390
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[84]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14391
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[85]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14392
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[86]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14393
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[87]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14394
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[88]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14395
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[89]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14396
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[90]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14397
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[91]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14398
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[92]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14399
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[93]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14400
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[94]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14401
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[95]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14402
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[97]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14408
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_V_Reinigung_GVK_Ein",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14409
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Hydraulik_GVK_Panel.Betriebsart",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 14411
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/DO_Hydraulik_GVK",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14413
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[100]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14414
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[101]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 15414
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[102]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 15415
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[103]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 15417
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[104]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 15418
+        },
+        {
+            "Name": "BR_CPU.BHKW/ZeitHeinzmannHoch",
+            "Value": 15,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 15419
+        },
+        {
+            "Name": "BR_CPU.BHKW/ZeitHeinzmannRunter",
+            "Value": 10,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 15420
+        },
+        {
+            "Name": "BR_CPU.BHKW/ProzentwertHeinzmannHoch",
+            "Value": 100,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 15421
+        },
+        {
+            "Name": "BR_CPU.BHKW/ProzentwertHeinzmannRunter",
+            "Value": 50,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 15422
+        },
+        {
+            "Name": "BR_CPU.BHKW/gAbschaltung_eon_aktiv",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 15424
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/HP_Heizkreis_Panel2.Betrieb",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 15426
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/HP_Heizkreis_Panel2.Betriebsart",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 15427
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/HP_Heizkreis_Panel2.Drehzah_Istwert",
+            "Value": 2142.665,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 15429
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[106]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 15467
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Alarme[105]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 15468
+        },
+        {
+            "Name": "BR_CPU.GasHauptGe/GasHauptGeblaese_Button_Hand.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1464
+        },
+        {
+            "Name": "BR_CPU.GasHauptGe/GasHauptGeblaese_Panel.Drehzahl_Sollwert",
+            "Value": 1485,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1469
+        },
+        {
+            "Name": "BR_CPU.GasHauptGe/GasHauptGeblaese_Panel.Strom_Istwert",
+            "Value": 5.5,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 1471
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/HP_Heizkreis_Button_Hand2.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 15425
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/HP_Heizkreis_Panel2.Drehzahl_Sollwert",
+            "Value": 2111,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 15430
+        },
+        {
+            "Name": "BR_CPU.HP_Heizkre/HP_Heizkreis_Panel2.Strom_Istwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 15432
+        },
+        {
+            "Name": "BR_CPU.BHKW/Mischventil_Gas_Hauptgas.Stellgroesse",
+            "Value": 17,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 1513
+        },
+        {
+            "Name": "Gasventil Hauptgas",
+            "Value": "Gasventil Hauptgas",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 1846
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Trichterkorrektur",
+            "Value": 1,
+            "Type": "INT",
+            "Unit": "",
+            "PvId": 312
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_bis_Klappe_2",
+            "Value": 1,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 313
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_bis_Klappe_kurz",
+            "Value": 1,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 314
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Kurzbetaetigung",
+            "Value": 0.6,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 315
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Neu_Pruefung",
+            "Value": 200,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 316
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Schieber_fahren",
+            "Value": 6,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 317
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Voll_Pruefen",
+            "Value": 15,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 318
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Anzahl_Kurz_Betaetigung",
+            "Value": 2,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1309
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Klappe_1_offen",
+            "Value": 2,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1310
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Klappe_2_offen",
+            "Value": 2,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1311
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Startdrehzahl_Geblaese_HV",
+            "Value": 500,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1324
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Temperatur_Zuendung_erfolgreich",
+            "Value": 400,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 1325
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_bis_Flamme_stabil",
+            "Value": 10,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1326
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Gas_bis_Zuendung",
+            "Value": 4,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1327
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Ueberwachung_Zuendung",
+            "Value": 5,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1328
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Faecherruettler_Zykluszeit",
+            "Value": 8,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 1584
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Faecherruettler_Laufzeit",
+            "Value": 6,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1585
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Rostruettler_Zykluszeit",
+            "Value": 2.5,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 1586
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Rostruettlerzyklen",
+            "Value": 1,
+            "Type": "UDINT",
+            "Unit": "",
+            "PvId": 1587
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Ascheschnecke_1_Nachlauf",
+            "Value": 35,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1588
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Ascheschnecke_2_Nachlauf",
+            "Value": 45,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1589
+        },
+        {
+            "Name": "BR_CPU.Trichter/Button_Tara.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1608
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Druckentlastung",
+            "Value": 20,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 1752
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Unterdruck_fuer_Faecherruettler",
+            "Value": -80,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 1798
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Unterdruck_fuer_Rostruettler",
+            "Value": -50,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 1799
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Unterdruck_Rostruettler",
+            "Value": 10,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1816
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Unterdruck_Ruetteln",
+            "Value": 120,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1818
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Verzoegerung_Ruetteln",
+            "Value": 10,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1819
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_fahren_Speed",
+            "Value": 560,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1866
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_heben_Speed",
+            "Value": 2276,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1867
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_min_Hub",
+            "Value": 0.38000000000000256,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1881
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Unterdruck_Faecherruettler",
+            "Value": 200,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1886
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_Begrenzung_Messung_Ost",
+            "Value": 9.55,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1965
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_Begrenzung_Messung_West",
+            "Value": 0.8300000000000001,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1966
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_Bunker_Begrenzung_Ost",
+            "Value": 9.5,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1967
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_Bunker_Begrenzung_Trichter",
+            "Value": 12.97,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1968
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_Bunker_Begrenzung_West",
+            "Value": 3.2,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1969
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_PosFenster_Speed",
+            "Value": 0.7000000000000001,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1971
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_Position_Speed",
+            "Value": 280,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1972
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_min_Schaufelgewicht",
+            "Value": 1000,
+            "Type": "UDINT",
+            "Unit": "kg",
+            "PvId": 1976
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_senken_Trichter",
+            "Value": 0.35000000000000003,
+            "Type": "INT",
+            "Unit": "m",
+            "PvId": 1977
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_oeffnen_Trichter",
+            "Value": 25,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1978
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_ueber_Trichter",
+            "Value": 60,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1979
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_min_Trichtergewicht",
+            "Value": 80,
+            "Type": "INT",
+            "Unit": "kg",
+            "PvId": 1981
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Gewicht_minimum_Fuellung",
+            "Value": 3,
+            "Type": "UDINT",
+            "Unit": "",
+            "PvId": 2001
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Trichter_nicht_gefuellt",
+            "Value": 20,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 2002
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.min_Schaufelgewicht",
+            "Value": 150,
+            "Type": "DINT",
+            "Unit": "kg",
+            "PvId": 2008
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Gewichtsmessung",
+            "Value": 600,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 2009
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Fehler_Klappe_1_offen",
+            "Value": 2,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 2017
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Fehler_Klappe_2_offen",
+            "Value": 4,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 2018
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Fehler_Schieber",
+            "Value": 500,
+            "Type": "UDINT",
+            "Unit": "ms",
+            "PvId": 2019
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Faecherruettler_Aktiv",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 4148
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_Senken_Fahrzeit",
+            "Value": 5,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 14313
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kran_Senken_Pausenzeit",
+            "Value": 5,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 14314
+        },
+        {
+            "Name": "BR_CPU.Kondensats/Kondensatschnecke_Panel.Linkslauf",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 175
+        },
+        {
+            "Name": "BR_CPU.Kondensats/Kondensatschnecke_Panel.Rechtslauf",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 176
+        },
+        {
+            "Name": "Seriennummer",
+            "Value": "51006374.49021046.8.-128",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 3
+        },
+        {
+            "Name": "Projektversion",
+            "Value": "1.66",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 5
+        },
+        {
+            "Name": "Projektname",
+            "Value": "201300031_WERNER_HOLZVERGASER",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 6
+        },
+        {
+            "Name": "Rechnername",
+            "Value": "PC-HOLZVERGASER",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 9
+        },
+        {
+            "Name": "BR_CPU.VisuPrg/Zeit_Datum.day",
+            "Value": 19,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 80
+        },
+        {
+            "Name": "BR_CPU.VisuPrg/Zeit_Datum.hour",
+            "Value": 16,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 81
+        },
+        {
+            "Name": "BR_CPU.VisuPrg/Zeit_Datum.minute",
+            "Value": 50,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 82
+        },
+        {
+            "Name": "BR_CPU.VisuPrg/Zeit_Datum.month",
+            "Value": 11,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 83
+        },
+        {
+            "Name": "BR_CPU.VisuPrg/Zeit_Datum.second",
+            "Value": 25,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 84
+        },
+        {
+            "Name": "BR_CPU.VisuPrg/Zeit_Datum.year",
+            "Value": 2019,
+            "Type": "UINT",
+            "Unit": "",
+            "PvId": 86
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/Kp",
+            "Value": 0.5,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2063
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/Kw",
+            "Value": 1,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2064
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/Tf",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2065
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/Tn",
+            "Value": 120,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2066
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/Tv",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2067
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/Kp",
+            "Value": 0.5,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2068
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/Kw",
+            "Value": 1,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2069
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/Tf",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2070
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/Tn",
+            "Value": 60,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2071
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/Tv",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2072
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/Kp",
+            "Value": 0.8,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2073
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/Kw",
+            "Value": 1,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2074
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/Tf",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2075
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/Tn",
+            "Value": 120,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2076
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/Tv",
+            "Value": 10,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2077
+        },
+        {
+            "Name": "BR_CPU.BHKW/Kp",
+            "Value": 0.5,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2078
+        },
+        {
+            "Name": "BR_CPU.BHKW/Kw",
+            "Value": 1,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2079
+        },
+        {
+            "Name": "BR_CPU.BHKW/Tf",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2080
+        },
+        {
+            "Name": "BR_CPU.BHKW/Tn",
+            "Value": 50,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2081
+        },
+        {
+            "Name": "BR_CPU.BHKW/Tv",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 2082
+        },
+        {
+            "Name": "BR_CPU.BHKW/paraEnter",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2083
+        },
+        {
+            "Name": "BR_CPU.HP_Gastroc/paraEnter",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2084
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/paraEnter",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2085
+        },
+        {
+            "Name": "BR_CPU.HP_Vorkueh/paraEnter",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 2086
+        },
+        {
+            "Name": "BR_CPU.HK_Gastroc/paraEnter",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9196
+        },
+        {
+            "Name": "BR_CPU.HK_Gastroc/Kp",
+            "Value": 0.5,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 9197
+        },
+        {
+            "Name": "BR_CPU.HK_Gastroc/Tn",
+            "Value": 120,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 9198
+        },
+        {
+            "Name": "BR_CPU.HK_Gastroc/Tv",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 9199
+        },
+        {
+            "Name": "BR_CPU.HK_Gastroc/Tf",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 9200
+        },
+        {
+            "Name": "BR_CPU.HK_Gastroc/Kw",
+            "Value": 1,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 9201
+        },
+        {
+            "Name": "BR_CPU.Holztrockn/paraEnter",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 11308
+        },
+        {
+            "Name": "BR_CPU.Holztrockn/Kp",
+            "Value": 2,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 11309
+        },
+        {
+            "Name": "BR_CPU.Holztrockn/Tn",
+            "Value": 60,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 11310
+        },
+        {
+            "Name": "BR_CPU.Holztrockn/Tv",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 11312
+        },
+        {
+            "Name": "BR_CPU.Holztrockn/Tf",
+            "Value": 0,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 11313
+        },
+        {
+            "Name": "BR_CPU.Holztrockn/Kw",
+            "Value": 1,
+            "Type": "REAL",
+            "Unit": "",
+            "PvId": 11314
+        },
+        {
+            "Name": "BR_CPU.BHKW/Gasklappe_Hauptgas_Panel.Ausfahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1524
+        },
+        {
+            "Name": "BR_CPU.BHKW/Gasklappe_Hauptgas_Panel.Einfahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1536
+        },
+        {
+            "Name": "Gasklappe Hauptgas",
+            "Value": "Gasklappe Hauptgas",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 1844
+        },
+        {
+            "Name": "BR_CPU.AlarmPrg/Button_Anlage_Aus.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1964
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/HP_Gaswaescher_Button_Hand.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 55
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/HP_Gaswaescher_Panel.Drehzahl_Sollwert",
+            "Value": 2154,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 60
+        },
+        {
+            "Name": "BR_CPU.HP_Gaswaea/HP_Gaswaescher_Panel.Strom_Istwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 62
+        },
+        {
+            "Name": "Rostrüttler",
+            "Value": "Rostrüttler",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 1838
+        },
+        {
+            "Name": "BR_CPU.HK_Gastroc/Mischventil_HK_Gastrockner.Stellgroesse",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 9191
+        },
+        {
+            "Name": "BR_CPU.Filterstau/Filterstaubschnecke_1_Panel.Linkslauf",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 170
+        },
+        {
+            "Name": "BR_CPU.Filterstau/Filterstaubschnecke_1_Panel.Rechtslauf",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 171
+        },
+        {
+            "Name": "BR_CPU._Ascheschn/Ascheschnecke_1_Panel.Linkslauf",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 150
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Kompressor_Panel.Rechtslauf",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1454
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Kesseldruckentlastung_Panel.Ausfahren",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 302
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Kesseldruckentlastung_Panel.Einfahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 305
+        },
+        {
+            "Name": "Kesseldruckentlastung",
+            "Value": "Kesseldruckentlastung",
+            "Type": "STRING",
+            "Unit": "",
+            "PvId": 1840
+        },
+        {
+            "Name": "BR_CPU._Aschesch1/Ascheschnecke_2_Panel.Linkslauf",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 155
+        },
+        {
+            "Name": "BR_CPU._Aschesch1/Ascheschnecke_2_Panel.Rechtslauf",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 156
+        },
+        {
+            "Name": "BR_CPU._Ascheschn/Ascheschnecke_1_Panel.Rechtslauf",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 151
+        },
+        {
+            "Name": "BR_CPU.Faecherrue/Faecherruettler_Panel.Drehzahl_Sollwert",
+            "Value": 670,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 9239
+        },
+        {
+            "Name": "BR_CPU.Faecherrue/Faecher_Buton_Hand.Value",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9241
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Druck_Kompressor",
+            "Value": 6.5,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 1456
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Druck_Kompressor_Hyst",
+            "Value": 0.5,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 1458
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filterdruckdifferenz",
+            "Value": 13,
+            "Type": "INT",
+            "Unit": "mbar",
+            "PvId": 1462
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_bis_neue_Reinigung",
+            "Value": 5,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1463
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.GVReinigung_Pausenzeit",
+            "Value": 10,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1609
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.GVReinigung_Zyklen",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 1610
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.GVReinigung_Zykluszeit",
+            "Value": 0.8999999999999999,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 1611
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Filterstaubschnecke_1_Nachlauf",
+            "Value": 50,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 1612
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Ueberleitschnecke_Nachlauf",
+            "Value": 5,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 1613
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.GVK_Durchfluss_aktiv",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1620
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kondensatschneck_Zykluszeit",
+            "Value": 0.9999999999999999,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 1770
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Kondensatschnecke_Laufzeit",
+            "Value": 180,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 1771
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Impulszeit_Filterreinigung",
+            "Value": 150,
+            "Type": "UDINT",
+            "Unit": "ms",
+            "PvId": 1775
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Luftventil_Motor",
+            "Value": 1000,
+            "Type": "UDINT",
+            "Unit": "ms",
+            "PvId": 1817
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Filterreinigung_Gas_Stelgroesse",
+            "Value": 22,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 1868
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Kompressorlaufzeit",
+            "Value": 20,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 1990
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zyklen_Filterreinigung",
+            "Value": 1,
+            "Type": "USINT",
+            "Unit": "",
+            "PvId": 2007
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Filterrein_Heinz_Stellgroesse",
+            "Value": 13107,
+            "Type": "INT",
+            "Unit": "",
+            "PvId": 2024
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Filterrein_Leistungs_Sollwert",
+            "Value": 2,
+            "Type": "INT",
+            "Unit": "kW",
+            "PvId": 2025
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.GVK_MV_max",
+            "Value": 75,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 2088
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.GVK_MV_min",
+            "Value": 90,
+            "Type": "INT",
+            "Unit": "%",
+            "PvId": 2089
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.GVK_WTemp_max",
+            "Value": 95,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 2090
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.GVK_WDruck_max",
+            "Value": 5.1000000000000005,
+            "Type": "INT",
+            "Unit": "bar",
+            "PvId": 2092
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Drosselklappe_Verz",
+            "Value": 1000,
+            "Type": "UDINT",
+            "Unit": "ms",
+            "PvId": 9148
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe1_Aktiv_Ventil[0]",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9149
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe1_Aktiv_Ventil[1]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9150
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe1_Aktiv_Ventil[2]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9151
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe1_Aktiv_Ventil[3]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9152
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe1_Aktiv_Ventil[4]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9153
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe1_Aktiv_Ventil[5]",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9154
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe1_Aktiv_Ventil[6]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9155
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe2_Aktiv_Ventil[0]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9156
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe2_Aktiv_Ventil[1]",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9157
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe2_Aktiv_Ventil[2]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9158
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe2_Aktiv_Ventil[3]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9159
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe2_Aktiv_Ventil[4]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9160
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe2_Aktiv_Ventil[5]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9161
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe2_Aktiv_Ventil[6]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9162
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe3_Aktiv_Ventil[0]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9163
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe3_Aktiv_Ventil[1]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9164
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe3_Aktiv_Ventil[2]",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9165
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe3_Aktiv_Ventil[3]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9166
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe3_Aktiv_Ventil[4]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9167
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe3_Aktiv_Ventil[5]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9168
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe3_Aktiv_Ventil[6]",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9169
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.GVK_Heizung_Solltemp",
+            "Value": 108,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 9180
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.GVK_Heizung_Schaltschwelle",
+            "Value": 104,
+            "Type": "INT",
+            "Unit": "°C",
+            "PvId": 9181
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Zeit_Ueber_Durchfluss_Vorkuehler",
+            "Value": 60,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 10239
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Dosierpumpe_Laufzeit",
+            "Value": 1,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 10258
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Dosierpumpe_Zykluszeit",
+            "Value": 24,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 10259
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Schlammrueckpumpe_Zykluszeit",
+            "Value": 24,
+            "Type": "UDINT",
+            "Unit": "h",
+            "PvId": 11286
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Schlammrueckpumpe_Laufzeit",
+            "Value": 1,
+            "Type": "UDINT",
+            "Unit": "s",
+            "PvId": 11287
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe1_Aktiv_Ventil[7]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14344
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe1_Aktiv_Ventil[8]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14345
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe1_Aktiv_Ventil[9]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14346
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe2_Aktiv_Ventil[7]",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14347
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe2_Aktiv_Ventil[8]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14348
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe2_Aktiv_Ventil[9]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14349
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe3_Aktiv_Ventil[7]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14350
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe3_Aktiv_Ventil[8]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14351
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe3_Aktiv_Ventil[9]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14352
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Ueberzeit_Drosselklappe",
+            "Value": 4000,
+            "Type": "UDINT",
+            "Unit": "ms",
+            "PvId": 14354
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe4_Aktiv_Ventil[0]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14359
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe4_Aktiv_Ventil[4]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14360
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe4_Aktiv_Ventil[2]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14361
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe4_Aktiv_Ventil[3]",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14362
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe4_Aktiv_Ventil[1]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14363
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe4_Aktiv_Ventil[5]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14364
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe4_Aktiv_Ventil[6]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14365
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe4_Aktiv_Ventil[7]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14366
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe4_Aktiv_Ventil[8]",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14367
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe4_Aktiv_Ventil[9]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14368
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe5_Aktiv_Ventil[0]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14369
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe5_Aktiv_Ventil[1]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14370
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe5_Aktiv_Ventil[2]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14371
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe5_Aktiv_Ventil[3]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14372
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe5_Aktiv_Ventil[4]",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14373
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe5_Aktiv_Ventil[5]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14374
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe5_Aktiv_Ventil[6]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14375
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe5_Aktiv_Ventil[7]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14376
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe5_Aktiv_Ventil[8]",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14377
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Parameter.Filter_Gruppe5_Aktiv_Ventil[9]",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 14378
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Lambda_Differenz_Filter",
+            "Value": 0.09,
+            "Type": "INT",
+            "Unit": "λ",
+            "PvId": 14379
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Lambda_Differenz_Filter_Tol_Min",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "λ",
+            "PvId": 14380
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Lambda_Differenz_Filter_Tol_Max",
+            "Value": 2,
+            "Type": "INT",
+            "Unit": "λ",
+            "PvId": 14381
+        },
+        {
+            "Name": "BR_CPU.Ueberleits/Ueberleitschnecke_Panel.Linkslauf",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 165
+        },
+        {
+            "Name": "BR_CPU.Ueberleits/Ueberleitschnecke_Panel.Rechtslauf",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 166
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Reinigung_Gasreiniguler_Panel.Ausfahren",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1350
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Reinigung_Gasreiniguler_Panel.Einfahren",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1353
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Ueberwachungszeit_Voll_aus",
+            "Value": 15,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9204
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Ueberwachungszeit_Voll_ein",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9205
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Abschaltzeit_Voll_aus",
+            "Value": 30,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9206
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Abschaltzeit_Voll_ein",
+            "Value": 1,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9207
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Vollmelder_Aus_Ueb_ET_Zyklus",
+            "Value": 10.533333333333333,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9208
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Vollmelder_Aus_Ab_ET_Zyklus",
+            "Value": 30,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9209
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Vollmelder_Ein_Ueb_ET_Zyklus",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9210
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Vollmelder_Ein_Ab_ET_Zyklus",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9211
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Reset_Panel_Ab_zeit_Voll_aus",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9212
+        },
+        {
+            "Name": "BR_CPU.Holzvergas/Reset_Panel_Ab_zeit_Voll_ein",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9213
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Ueberwachungszeit_Kran_heben",
+            "Value": 15,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9214
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Ueberwachungszeit_Kran_Zyklus",
+            "Value": 20,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9215
+        },
+        {
+            "Name": "BR_CPU.Kran/Kran_heben_Ueb_ET_Zyklus",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9216
+        },
+        {
+            "Name": "BR_CPU.Kran/Kran_Zyklus_Ueb_ET_Zyklus",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9217
+        },
+        {
+            "Name": "BR_CPU.Kran/Kran_heben_Ab_ET_Zyklus",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9218
+        },
+        {
+            "Name": "BR_CPU.Kran/Kran_Zyklus_Ab_ET_Zyklus",
+            "Value": 0,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9219
+        },
+        {
+            "Name": "BR_CPU.Kran/Reset_Panel_Ab_zeit_Kran_heben",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9220
+        },
+        {
+            "Name": "BR_CPU.Kran/Reset_Panel_Ab_zeit_Kran_Zyklus",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9221
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Abschaltzeit_Kran_heben",
+            "Value": 30,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9222
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Abschaltzeit_Kran_Zyklus",
+            "Value": 50,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9223
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Ueberwachungszeit_Kondensat_Leer",
+            "Value": 20,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9225
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Abschaltzeit_Kondensat_Leer",
+            "Value": 30,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9226
+        },
+        {
+            "Name": "BR_CPU.Kondensatp/Kondensat_Leer_Ab_ET_Zyklus",
+            "Value": 30,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9227
+        },
+        {
+            "Name": "BR_CPU.Kondensatp/Kondensat_Leer_Ueb_ET_Zyklus",
+            "Value": 20,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9228
+        },
+        {
+            "Name": "BR_CPU.Kondensatp/Reset_Panel_Ab_zeit_Kond_Leer",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9229
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Reset_Panel_Ab_zeit_Filter",
+            "Value": 0,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 9230
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Filter_Ueb_ET_Zyklus",
+            "Value": 20,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9231
+        },
+        {
+            "Name": "BR_CPU.Gasreinigu/Filter_Ab_ET_Zyklus",
+            "Value": 30,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9232
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Abschaltzeit_Filter_Zyklus",
+            "Value": 30,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9233
+        },
+        {
+            "Name": "BR_CPU.Parameter/Parameter.Ueberwachungszeit_Filter_Zyklus",
+            "Value": 20,
+            "Type": "UDINT",
+            "Unit": "min",
+            "PvId": 9234
+        },
+        {
+            "Name": "BR_CPU.WP_Motorku/WP_Motorkuehlung_Button_Hand.Value",
+            "Value": 1,
+            "Type": "BOOL",
+            "Unit": "",
+            "PvId": 1444
+        },
+        {
+            "Name": "BR_CPU.WP_Motorku/WP_Motorkuehlung_Panel.Drehzahl_Sollwert",
+            "Value": 1305,
+            "Type": "INT",
+            "Unit": "U/min",
+            "PvId": 1448
+        },
+        {
+            "Name": "BR_CPU.WP_Motorku/WP_Motorkuehlung_Panel.Strom_Istwert",
+            "Value": 0,
+            "Type": "INT",
+            "Unit": "A",
+            "PvId": 1450
+        }
+    ]
+}

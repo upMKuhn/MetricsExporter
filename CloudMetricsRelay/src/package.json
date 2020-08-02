@@ -1,0 +1,22 @@
+{
+  "name": "CloudMetricsRelay",
+  "version": "1.0.0",
+  "description": "Expose holzgas metrics from WS to HTTP endpoint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "@std/esm": "cjs",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.4",
+    "influx": "^5.5.1",
+    "moment": "^2.24.0",
+    "prom-client": "^11.5.3",
+    "redis": "^2.8.0",
+    "ws": "^7.2.0"
+  }
+}

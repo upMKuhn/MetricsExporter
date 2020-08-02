@@ -1,0 +1,32 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: aggregate-kwh-monthly
+  namespace: powercraft
+spec:
+  schedule: 0 * * * *
+  concurrencyPolicy: Forbid
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          imagePullSecrets:
+            - name: regcred
+          restartPolicy: Never
+          containers:
+            - name: update-query-aggregate-kwh-monthly
+              envFrom:
+                - configMapRef:
+                    name: metrics-relay
+                - secretRef:
+                    name: influx-acc
+              imagePullPolicy: Always
+              image: registry.gitlab.com/powercraftgmbh/zenonmetricsexporter/metrics-relay:latest
+              command: [ "node"]
+              args:
+                - --experimental-modules
+                - /app/src/cmd/execute_query.mjs
+                - powercraft_kpi
+                - /app/ops/queries/aggregate_kwh_monthly.iql
+          

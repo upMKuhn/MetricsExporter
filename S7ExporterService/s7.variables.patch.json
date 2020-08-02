@@ -1,0 +1,1629 @@
+[
+  {
+    "Name": "CurrentLogin"
+  },
+  {
+    "Name": "CurrentUser"
+  },
+  {
+    "Name": "DB10_Allgemein_S_ERR_RESET"
+  },
+  {
+    "Name": "DB114_FromHVG_WinCC_LEDa",
+    "Display_Name": "LED Anzeige Signale von HVG"
+  },
+  {
+    "Name": "DB114_ToHVG_WinCC_LEDa",
+    "Display_Name": "LED Anzeige Signale zu HVG"
+  },
+  {
+    "Name": "DB124_FromHVG_WinCC_LEDa",
+    "Display_Name": "LED Anzeige Signale von HVG"
+  },
+  {
+    "Name": "DB124_MODE_SELECT",
+    "Display_Name": "Betriebsart Anwahl Aus/Hand/Auto"
+  },
+  {
+    "Name": "DB124_ToHVG_WinCC_LEDa",
+    "Display_Name": "LED Anzeige Signale zu HVG"
+  },
+  {
+    "Name": "DB160_bStopSignals",
+    "Display_Name": "Byte Stop Singals"
+  },
+  {
+    "Name": "DB160_DPS_ERR_FLAGs",
+    "Display_Name": "Anzeige St�rungs Flags"
+  },
+  {
+    "Name": "DB160_DSP_WARN_FLAGs",
+    "Display_Name": "Anzeige Warnung Flags"
+  },
+  {
+    "Name": "DB160_DT_START_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB160_DT_STOP_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB160_MODE_SELECT",
+    "Display_Name": "Betriebsart Anwahl Aus/Hand/Auto"
+  },
+  {
+    "Name": "DB160_WinCC_LEDa",
+    "Display_Name": "Anzeige WinCC-LED 8-fach 4-Farben"
+  },
+  {
+    "Name": "DB162_bStopSignals",
+    "Display_Name": "Byte Stop Singals"
+  },
+  {
+    "Name": "DB162_DSP_ERR_FLAGs",
+    "Display_Name": "Anzeige St�rungs Flags"
+  },
+  {
+    "Name": "DB162_DSP_FU_Hz",
+    "Display_Name": "Anzeige aktueller Motorfrequenz"
+  },
+  {
+    "Name": "DB162_DSP_RPM",
+    "Display_Name": "Drehzahl Motor"
+  },
+  {
+    "Name": "DB162_DSP_SPEED_SOLL",
+    "Display_Name": "Anzeige aktuelle Drehzahl Sollwert"
+  },
+  {
+    "Name": "DB162_DSP_STATUS_MOTOR",
+    "Display_Name": "Anzeige Status Motor"
+  },
+  {
+    "Name": "DB162_DSP_VOLT_ANALOG",
+    "Display_Name": "1000=10V"
+  },
+  {
+    "Name": "DB162_DSP_WARN_FLAGs",
+    "Display_Name": "Anzeige Warnung Flags"
+  },
+  {
+    "Name": "DB162_DT_START_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB162_DT_STOP_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB162_MODE_SELECT",
+    "Display_Name": "Betriebsart Anwahl Aus/Hand/Auto"
+  },
+  {
+    "Name": "DB162_SPEED_AUTO",
+    "Display_Name": "Anzeige Speed Auto"
+  },
+  {
+    "Name": "DB162_SPEED_HAND",
+    "Display_Name": "Vorgabe Handdrehzahl"
+  },
+  {
+    "Name": "DB162_STS_FLAGS_FLAGs",
+    "Display_Name": "Flags 0..7 as Byte"
+  },
+  {
+    "Name": "DB162_WinCC_LEDa",
+    "Display_Name": "Anzeige WinCC-LED 8-fach 4-Farben"
+  },
+  {
+    "Name": "DB166_DSP_STATUS_VALVE",
+    "Display_Name": "Anzeige Status Ventil"
+  },
+  {
+    "Name": "DB167_DSP_STATUS_VALVE",
+    "Display_Name": "Anzeige Status Ventil"
+  },
+  {
+    "Name": "DB168_DSP_STATUS_VALVE",
+    "Display_Name": "Anzeige Status Ventil"
+  },
+  {
+    "Name": "DB169_DSP_STATUS_VALVE",
+    "Display_Name": "Anzeige Status Ventil"
+  },
+  {
+    "Name": "DB18_FILTER_BTN_WECHSEL_01",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB18_FILTER_BTN_WECHSEL_02",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB18_FILTER_BTN_WECHSEL_03",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB18_FILTER_BTN_WECHSEL_04",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB18_FILTER_BTN_WECHSEL_05",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB18_FILTER_BTN_WECHSEL_06",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB18_FILTER_BTN_WECHSEL_07",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB18_FILTER_BTN_WECHSEL_08",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB18_FILTER_BTN_WECHSEL_09",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB18_FILTER_BTN_WECHSEL_10",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB20_WinCC_LEDa_24V",
+    "Display_Name": "LED-Anzeige 24V Sicherungen"
+  },
+  {
+    "Name": "DB20_WinCC_LEDa_Power",
+    "Display_Name": "LED-Anzeige Spannungsversorgungen 230/400V"
+  },
+  {
+    "Name": "DB200_DPS_ERR_FLAGs",
+    "Display_Name": "Anzeige St�rungs Flags"
+  },
+  {
+    "Name": "DB200_DSP_STATUS",
+    "Display_Name": "Anzeige Status Motor"
+  },
+  {
+    "Name": "DB200_DSP_WARN_FLAGs",
+    "Display_Name": "Anzeige Warnung Flags"
+  },
+  {
+    "Name": "DB200_MODE_SELECT",
+    "Display_Name": "Betriebsart Anwahl Aus/Hand/Auto"
+  },
+  {
+    "Name": "DB200_Temp_Max",
+    "Display_Name": "Temperatur: Warnung Max"
+  },
+  {
+    "Name": "DB200_Temp_MaxMax",
+    "Display_Name": "Temperatur: St�rung MaxMax"
+  },
+  {
+    "Name": "DB200_Temp_Min",
+    "Display_Name": "Temperatur: Warnung Min"
+  },
+  {
+    "Name": "DB200_Temp_MinMin",
+    "Display_Name": "Temperatur: St�rung MinMin"
+  },
+  {
+    "Name": "DB200_Temp_Raum_IST_av",
+    "Display_Name": "Raumtemperatur IST ged�mpfter Wert"
+  },
+  {
+    "Name": "DB200_Temp_Raum_Soll",
+    "Display_Name": "Raum Solltemperatur"
+  },
+  {
+    "Name": "DB200_Temp_VorRaum_IST_av",
+    "Display_Name": "Raumtemperatur Vorraum IST (Schaltschrank +SS02.0, Trocknungsl�fter) ged�mpft"
+  },
+  {
+    "Name": "DB200_Temp_Zuluft_IST_av",
+    "Display_Name": "Zulufttemperatur IST ged�mpfter Wert"
+  },
+  {
+    "Name": "DB201_DSP_REG_Temp",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB202_bStopSignals",
+    "Display_Name": "Byte Stop Singals"
+  },
+  {
+    "Name": "DB202_DPS_ERR_FLAGs",
+    "Display_Name": "Anzeige St�rungs Flags"
+  },
+  {
+    "Name": "DB202_DSP_FU_FLAGs",
+    "Display_Name": "Anzeige Meldeflags Frequenzumrichter"
+  },
+  {
+    "Name": "DB202_DSP_FU_Hz",
+    "Display_Name": "Anzeige aktueller Motorfrequenz"
+  },
+  {
+    "Name": "DB202_DSP_RPM",
+    "Display_Name": "Drehzahl Motor"
+  },
+  {
+    "Name": "DB202_DSP_SPEED_SOLL",
+    "Display_Name": "Anzeige aktuelle Drehzahl Sollwert"
+  },
+  {
+    "Name": "DB202_DSP_STATUS_MOTOR",
+    "Display_Name": "Anzeige Status Motor"
+  },
+  {
+    "Name": "DB202_DSP_VOLT_ANALOG",
+    "Display_Name": "1000=10V"
+  },
+  {
+    "Name": "DB202_DSP_WARN_FLAGs",
+    "Display_Name": "Anzeige Warnung Flags"
+  },
+  {
+    "Name": "DB202_DT_START_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB202_DT_STOP_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB202_MODE_SELECT",
+    "Display_Name": "Betriebsart Anwahl Aus/Hand/Auto"
+  },
+  {
+    "Name": "DB202_SPEED_AUTO",
+    "Display_Name": "Anzeige Speed Auto"
+  },
+  {
+    "Name": "DB202_SPEED_HAND",
+    "Display_Name": "Vorgabe Handdrehzahl"
+  },
+  {
+    "Name": "DB202_SPEED_REGLER",
+    "Display_Name": "Vorgabewert von Regler"
+  },
+  {
+    "Name": "DB202_STS_FLAGS_FLAGs",
+    "Display_Name": "Flags 0..7 as Byte"
+  },
+  {
+    "Name": "DB202_WinCC_LEDa",
+    "Display_Name": "Anzeige WinCC-LED 8-fach 4-Farben"
+  },
+  {
+    "Name": "DB204_bStopSignals",
+    "Display_Name": "Byte Stop Singals"
+  },
+  {
+    "Name": "DB204_DSP_ERR_FLAGs",
+    "Display_Name": "Anzeige St�rungs Flags"
+  },
+  {
+    "Name": "DB204_DSP_FU_FLAGs",
+    "Display_Name": "Anzeige Meldeflags Frequenzumrichter"
+  },
+  {
+    "Name": "DB204_DSP_FU_Hz",
+    "Display_Name": "Anzeige aktueller Motorfrequenz"
+  },
+  {
+    "Name": "DB204_DSP_RPM",
+    "Display_Name": "Drehzahl Motor"
+  },
+  {
+    "Name": "DB204_DSP_SPEED_SOLL",
+    "Display_Name": "Anzeige aktuelle Drehzahl Sollwert"
+  },
+  {
+    "Name": "DB204_DSP_STATUS_MOTOR",
+    "Display_Name": "Anzeige Status Motor"
+  },
+  {
+    "Name": "DB204_DSP_VOLT_ANALOG",
+    "Display_Name": "1000=10V"
+  },
+  {
+    "Name": "DB204_DSP_WARN_FLAGs",
+    "Display_Name": "Anzeige Warnung Flags"
+  },
+  {
+    "Name": "DB204_DT_START_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB204_DT_STOP_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB204_MODE_SELECT",
+    "Display_Name": "Betriebsart Anwahl Aus/Hand/Auto"
+  },
+  {
+    "Name": "DB204_SPEED_AUTO",
+    "Display_Name": "Anzeige Speed Auto"
+  },
+  {
+    "Name": "DB204_SPEED_HAND",
+    "Display_Name": "Vorgabe Handdrehzahl"
+  },
+  {
+    "Name": "DB204_STS_FLAGS_FLAGs",
+    "Display_Name": "Flags 0..7 as Byte"
+  },
+  {
+    "Name": "DB204_WinCC_LEDa",
+    "Display_Name": "Anzeige WinCC-LED 8-fach 4-Farben"
+  },
+  {
+    "Name": "DB210_DSP_ERR_FLAGs",
+    "Display_Name": "Anzeige St�rungs Flags"
+  },
+  {
+    "Name": "DB210_DSP_WARN_FLAGs",
+    "Display_Name": "Anzeige Warnung Flags"
+  },
+  {
+    "Name": "DB210_Temp_Max",
+    "Display_Name": "Temperatur: Warnung Max"
+  },
+  {
+    "Name": "DB210_Temp_MaxMax",
+    "Display_Name": "Temperatur: St�rung MaxMax"
+  },
+  {
+    "Name": "DB210_Temp_Min",
+    "Display_Name": "Temperatur: Warnung Min"
+  },
+  {
+    "Name": "DB210_Temp_MinMin",
+    "Display_Name": "Temperatur: St�rung MinMin"
+  },
+  {
+    "Name": "DB210_Temp_Raum_IST_av",
+    "Display_Name": "Raumtemperatur IST ged�mpfter Wert"
+  },
+  {
+    "Name": "DB210_Temp_Raum_Soll",
+    "Display_Name": "Raum Solltemperatur"
+  },
+  {
+    "Name": "DB211_DSP_REG_Temp",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB212_bStopSignals",
+    "Display_Name": "Byte Stop Singals"
+  },
+  {
+    "Name": "DB212_DSP_ERR_FLAGs",
+    "Display_Name": "Anzeige St�rungs Flags"
+  },
+  {
+    "Name": "DB212_DSP_FU_Hz",
+    "Display_Name": "Anzeige aktueller Motorfrequenz"
+  },
+  {
+    "Name": "DB212_DSP_RPM",
+    "Display_Name": "Drehzahl Motor"
+  },
+  {
+    "Name": "DB212_DSP_SPEED_SOLL",
+    "Display_Name": "Anzeige aktuelle Drehzahl Sollwert"
+  },
+  {
+    "Name": "DB212_DSP_STATUS_MOTOR",
+    "Display_Name": "Anzeige Status Motor"
+  },
+  {
+    "Name": "DB212_DSP_VOLT_ANALOG",
+    "Display_Name": "1000=10V"
+  },
+  {
+    "Name": "DB212_DSP_WARN_FLAGs",
+    "Display_Name": "Anzeige Warnung Flags"
+  },
+  {
+    "Name": "DB212_DT_START_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB212_DT_STOP_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB212_MODE_SELECT",
+    "Display_Name": "Betriebsart Anwahl Aus/Hand/Auto"
+  },
+  {
+    "Name": "DB212_SPEED_AUTO",
+    "Display_Name": "Anzeige Speed Auto"
+  },
+  {
+    "Name": "DB212_SPEED_HAND",
+    "Display_Name": "Vorgabe Handdrehzahl"
+  },
+  {
+    "Name": "DB212_SPEED_REGLER",
+    "Display_Name": "Vorgabewert von Regler"
+  },
+  {
+    "Name": "DB212_STS_FLAGS_FLAGs",
+    "Display_Name": "Flags 0..7 as Byte"
+  },
+  {
+    "Name": "DB212_WinCC_LEDa",
+    "Display_Name": "Anzeige WinCC-LED 8-fach 4-Farben"
+  },
+  {
+    "Name": "DB22_TEMP_IST_av",
+    "Display_Name": "Schaltschranktemperatur IST ged�mpft"
+  },
+  {
+    "Name": "DB22_Temp_Max",
+    "Display_Name": "Temperatur: Warnung Max"
+  },
+  {
+    "Name": "DB22_Temp_MaxMax",
+    "Display_Name": "Temperatur: St�rung MaxMax"
+  },
+  {
+    "Name": "DB22_Temp_Min",
+    "Display_Name": "Temperatur: Warnung Min"
+  },
+  {
+    "Name": "DB22_Temp_MinMin",
+    "Display_Name": "Temperatur: St�rung MinMin"
+  },
+  {
+    "Name": "DB23_RESET1",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB26_BTN_TEST_ERR",
+    "Display_Name": "Taste: Testmeldung St�rung versenden"
+  },
+  {
+    "Name": "DB26_BTN_TEST_WARN",
+    "Display_Name": "Taste: Testmeldung Warnung versenden"
+  },
+  {
+    "Name": "DB26_WinCC_LEDa",
+    "Display_Name": "Anzeige WinCC-LED 8-fach 4-Farben"
+  },
+  {
+    "Name": "DB27_optBTN_ERR{0}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_ERR{1}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_ERR{2}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_ERR{3}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_ERR{4}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_ERR{5}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_ERR{6}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_ERR{7}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_ERR{8}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_WARN{0}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_WARN{1}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_WARN{2}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_WARN{3}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_WARN{4}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_WARN{5}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_WARN{6}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_WARN{7}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB27_optBTN_WARN{8}",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB4_DateAndTime_akt_DateTime",
+    "Display_Name": "aktuelle Zeit"
+  },
+  {
+    "Name": "DB4_DateAndTime_aktDate",
+    "Display_Name": "aktuelles Datum"
+  },
+  {
+    "Name": "DB4_DateAndTime_aktTime",
+    "Display_Name": "aktuelle Zeit"
+  },
+  {
+    "Name": "DB4_DateAndTime_Button_SetTime",
+    "Display_Name": "Taste Zeit einstellen"
+  },
+  {
+    "Name": "DB4_DateAndTime_month",
+    "Display_Name": "aktueller Monat"
+  },
+  {
+    "Name": "DB4_DateAndTime_set_DateTime",
+    "Display_Name": "Zeit SetPoint"
+  },
+  {
+    "Name": "DB4_DateAndTime_week",
+    "Display_Name": "Kalenderwoche"
+  },
+  {
+    "Name": "DB40_Temp_IST_av",
+    "Display_Name": "Schaltschranktemperatur IST ged�mpfter Wert"
+  },
+  {
+    "Name": "DB40_Temp_Max",
+    "Display_Name": "Temperatur: Warnung Max"
+  },
+  {
+    "Name": "DB40_Temp_MaxMax",
+    "Display_Name": "Temperatur: St�rung MaxMax"
+  },
+  {
+    "Name": "DB40_Temp_Min",
+    "Display_Name": "Temperatur: Warnung Min"
+  },
+  {
+    "Name": "DB40_Temp_MinMin",
+    "Display_Name": "Temperatur: St�rung MinMin"
+  },
+  {
+    "Name": "DB41_RESET1",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB42_Luefter_bStopSignals",
+    "Display_Name": "Byte Stop Singals"
+  },
+  {
+    "Name": "DB42_Luefter_DSP_ERR_FLAGs",
+    "Display_Name": "Anzeige St�rungs Flags"
+  },
+  {
+    "Name": "DB42_Luefter_DSP_FU_FLAGs",
+    "Display_Name": "Anzeige Meldeflags Frequenzumrichter"
+  },
+  {
+    "Name": "DB42_Luefter_DSP_FU_Hz",
+    "Display_Name": "Anzeige aktueller Motorfrequenz"
+  },
+  {
+    "Name": "DB42_Luefter_DSP_RPM",
+    "Display_Name": "Drehzahl Motor"
+  },
+  {
+    "Name": "DB42_Luefter_DSP_SPEED_CURVE",
+    "Display_Name": "Anzeige % 0..100 f�r Kurvenanzeige"
+  },
+  {
+    "Name": "DB42_Luefter_DSP_SPEED_FU",
+    "Display_Name": "Anzeige aktuelle Drehzahl Meldung von FU"
+  },
+  {
+    "Name": "DB42_Luefter_DSP_SPEED_SOLL",
+    "Display_Name": "Anzeige aktuelle Drehzahl Sollwert"
+  },
+  {
+    "Name": "DB42_Luefter_DSP_STATUS_MOTOR",
+    "Display_Name": "Anzeige Status Motor"
+  },
+  {
+    "Name": "DB42_Luefter_DSP_VOLT_ANALOG",
+    "Display_Name": "1000=10V"
+  },
+  {
+    "Name": "DB42_Luefter_DSP_WARN_FLAGs",
+    "Display_Name": "Anzeige Warnung Flags"
+  },
+  {
+    "Name": "DB42_Luefter_MODE_SELECT",
+    "Display_Name": "Betriebsart Anwahl Aus/Hand/Auto"
+  },
+  {
+    "Name": "DB42_Luefter_SPEED_AUTO",
+    "Display_Name": "Anzeige Speed Auto"
+  },
+  {
+    "Name": "DB42_Luefter_SPEED_HAND",
+    "Display_Name": "Vorgabe Handdrehzahl"
+  },
+  {
+    "Name": "DB42_Luefter_STS_FLAGS_FLAGs",
+    "Display_Name": "Flags 0..7 as Byte"
+  },
+  {
+    "Name": "DB42_Luefter_WinCC_LEDa",
+    "Display_Name": "Anzeige WinCC-LED 8-fach 4-Farben"
+  },
+  {
+    "Name": "DB43_Lueft_Reg_Druck_Max_Zuluft",
+    "Display_Name": "Max. Druck Zuluft Trockenbox (Sollwert f�r Begrenzungsregler)"
+  },
+  {
+    "Name": "DB43_Lueft_Reg_DSP_REG_MaxDruck",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB43_Lueft_Reg_DSP_REG_MaxTemp",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB43_Lueft_Reg_DSP_REG_Temp",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB43_Lueft_Reg_DSP_ReglerSumme",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB43_Lueft_Reg_DSP_RL_IST_av",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB43_Lueft_Reg_DSP_VL_IST_av",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB43_Lueft_Reg_DSP_ZUL_P_IST_av",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB43_Lueft_Reg_DSP_ZUL_Temp_IST_av",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB43_Lueft_Reg_Temp_ALARM_LuefterHaube",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB43_Lueft_Reg_Temp_Max_Zuluft",
+    "Display_Name": "Maximale Zulufttemperatur Trocknung (Sollwert f�r Begrenzungsregelung)"
+  },
+  {
+    "Name": "DB43_Lueft_Reg_Temp_Soll_RL",
+    "Display_Name": "Hauptwasserkreislauf: Vorlauftemperatur Soll �C (Kaltwasserseite nach K�hler)"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_bStopSignals",
+    "Display_Name": "Byte Stop Singals"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_DPS_ERR_FLAGs",
+    "Display_Name": "Anzeige St�rungs Flags"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_DSP_FU_Hz",
+    "Display_Name": "Anzeige aktueller Motorfrequenz"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_DSP_RPM",
+    "Display_Name": "Drehzahl Motor"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_DSP_SPEED_FU",
+    "Display_Name": "Anzeige aktuelle Drehzahl Meldung von FU"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_DSP_SPEED_SOLL",
+    "Display_Name": "Anzeige aktuelle Drehzahl Sollwert"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_DSP_STATUS_MOTOR",
+    "Display_Name": "Anzeige Status Motor"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_DSP_VOLT_ANALOG",
+    "Display_Name": "1000=10V"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_DSP_WARN_FLAGs",
+    "Display_Name": "Anzeige Warnung Flags"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_DT_START_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_DT_STOP_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_MODE_SELECT",
+    "Display_Name": "Betriebsart Anwahl Aus/Hand/Auto"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_SPEED_HAND",
+    "Display_Name": "Vorgabe Handdrehzahl"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_STS_FLAGS_FLAGs",
+    "Display_Name": "Flags 0..7 as Byte"
+  },
+  {
+    "Name": "DB44_Pumpe_Hzg_WinCC_LEDa",
+    "Display_Name": "Anzeige WinCC-LED 8-fach 4-Farben"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW300_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW302_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW304_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW306_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW308_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW310_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW312_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW314_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW316_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW318_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW320_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW322_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW360_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW362_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW364_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB5_SENSOREN_PEW366_value_av",
+    "Display_Name": "actual value average"
+  },
+  {
+    "Name": "DB501_CFG_LUEFTER_cfg_EloRaum_SPEED_MAX",
+    "Display_Name": "Maximale Drehzahl [% 0..100]"
+  },
+  {
+    "Name": "DB501_CFG_LUEFTER_cfg_EloRaum_SPEED_MIN",
+    "Display_Name": "Minimale Drehzahl [% 0..100]"
+  },
+  {
+    "Name": "DB560_KRAN_STAT_DT_CHARGE_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB560_KRAN_STAT_DT_CHARGE_ERR_dtDateTime",
+    "Display_Name": "Date and Time"
+  },
+  {
+    "Name": "DB560_KRAN_STAT_RESET_CNT_CHARGEN",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB560_KRAN_STAT_RESET_CNT_CHARGEN_ERR",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB560_KRAN_STAT_SUMME_CHARGEN_24h",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB560_KRAN_STAT_SUMME_GEWICHT_24h",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB60_BTN_1Cycle",
+    "Display_Name": "Taste 1 Zyklus starten"
+  },
+  {
+    "Name": "DB60_BTN_PARK",
+    "Display_Name": "Taste Parkposition anfahren"
+  },
+  {
+    "Name": "DB60_BTN_SCAN",
+    "Display_Name": "Taste Scannerfahrt starten"
+  },
+  {
+    "Name": "DB60_BTN_START",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB60_BTN_STOP",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB60_DSP_STAT_START",
+    "Display_Name": "Statusanzeige f�r START/STOP Tasten Visu"
+  },
+  {
+    "Name": "DB60_Greifer_kg",
+    "Display_Name": "Aktuelle Gewicht Greifer (Gesamtgewicht)"
+  },
+  {
+    "Name": "DB60_MODE_DSP",
+    "Display_Name": "Anzeige aktuelle Betriebsart"
+  },
+  {
+    "Name": "DB60_MODE_SCAN",
+    "Display_Name": "0: Aufnahmeposition �ber Scanner; 1: Aufnahmeposition im Versatzverfahren"
+  },
+  {
+    "Name": "DB60_MODE_SELECT",
+    "Display_Name": "Betriebsart Anwahl Aus/Hand/Auto"
+  },
+  {
+    "Name": "DB60_STB_Flags",
+    "Display_Name": "Stauts Schalter/Taster Steuerbirne"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Greifer_Entlast_kg",
+    "Display_Name": "Gewicht Greifer entlastet (unten)"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Greifer_min_kg",
+    "Display_Name": "Mindestgewicht Greifer mit Material"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Greifer_Senken",
+    "Display_Name": "Greifer senken zum Entleeren"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Hub_EL_oben",
+    "Display_Name": "Hub Position Endlage oben"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Hub_Speed_fast",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Katze_POS_TOL",
+    "Display_Name": "Zul. Positionstoleranz Katze +/-"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Katze_Speed_fast",
+    "Display_Name": "Katze Geschwindigkeit schnell"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Katze_Speed_Fenster",
+    "Display_Name": "Katze Geschwindigkeit im Positionsfenster"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Katze_Speed_slow",
+    "Display_Name": "Katze Geschwindigkeit langsam"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Lim_Bunker_Ost",
+    "Display_Name": "Begrenzung Aufnahmeposition Bunker Ost (Achtung: +/- TOL)"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Lim_Bunker_West",
+    "Display_Name": "Begrenzung Aufnahmeposition Bunker West (Achtung: +/- TOL)"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Lim_Mess_Ost",
+    "Display_Name": "Begrenzung Messung Ost"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Lim_Mess_West",
+    "Display_Name": "Begrenzung Messung West"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Linie1_Feull_Voll",
+    "Display_Name": "Trichter Linie1: F�llstand voll"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Linie1_Fuell_Fuell",
+    "Display_Name": "Trichter Linie1: F�llstand nachf�llen",
+    "Unit":  "kg",
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Linie1_Fuell_Leer",
+    "Display_Name": "Trichter Linie1: F�llstand leer",
+    "Unit": "kg"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Linie1_Pos",
+    "Display_Name": "Position Vergaserlinie 1"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Linie2_Pos",
+    "Display_Name": "Position Vergaserlinie 2"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Linie3_pos",
+    "Display_Name": "Position Vergaserlinie 3"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_Park_POS",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB61_KRAN_PARA_RES68",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB61_KRAN_PARA_T_Greif_leer",
+    "Display_Name": "Wartezeit bis Greifer leer"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_T_Greif_open",
+    "Display_Name": "Greifer �ffnungszeit �ber Trichter"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_T_Hub_ab_max",
+    "Display_Name": "maximale Senkzeit bis greifen"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_T_Hub_auf_max",
+    "Display_Name": "Hubzeit max (Fehlerabschaltung)"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_T_Hub_mess",
+    "Display_Name": "Hubzeit vor Gewichtsmessung"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_T_SRK_FB74_mmss",
+    "Display_Name": "Zeit�berwachung: FB74 Schrittkette wiegen bei Aufnehmen"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_T_SRK_FB76_mmss",
+    "Display_Name": "Zeit�berwachung: FB76 Hauptschrittkette Automatik"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_T_SRK_FB77_mmss",
+    "Display_Name": "Zeit�berwachung: FB77 Schrittkette Grundstellung fahren"
+  },
+  {
+    "Name": "DB61_KRAN_PARA_T_SRK_FB78_mmss",
+    "Display_Name": "Zeit�berwachung: FB78 Schrittkette Scannerfahrt (F�llh�he Bunker)"
+  },
+  {
+    "Name": "DB64_Katze_BTN_HAND_RW",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB64_Katze_BTN_HAND_VW",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB64_Katze_DSP_STATUS_MOTOR",
+    "Display_Name": "Anzeige Status Motor"
+  },
+  {
+    "Name": "DB64_Katze_DSP_TACHO_SPEED",
+    "Display_Name": "Geschwindigkeit �ber Tachoauswertung [mm/min = m/min *1000]"
+  },
+  {
+    "Name": "DB64_Katze_POS_IST",
+    "Display_Name": "Istposition Katze"
+  },
+  {
+    "Name": "DB64_Katze_POS_SOLL",
+    "Display_Name": "Sollposition katze"
+  },
+  {
+    "Name": "DB66_Hub_BTN_HAND_RW",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB66_Hub_BTN_HAND_VW",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB66_Hub_DSP_STATUS_MOTOR",
+    "Display_Name": "Anzeige Status Motor"
+  },
+  {
+    "Name": "DB66_Hub_POS_IST",
+    "Display_Name": "Istposition Katze"
+  },
+  {
+    "Name": "DB66_Hub_POS_SOLL",
+    "Display_Name": "Sollposition katze"
+  },
+  {
+    "Name": "DB68_BTN_GREIFER_AUF",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB68_BTN_GREIFER_ZU",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB68_DSP_GREIFER_STAT",
+    "Display_Name": "Greifer Status: 0=geschlossen; 1=offen"
+  },
+  {
+    "Name": "DB68_DSP_STATUS_MOTOR",
+    "Display_Name": "Anzeige Status Motor"
+  },
+  {
+    "Name": "DB70_DSP_SNR_FB76",
+    "Display_Name": "Anzeige Schrittnummer FB76: Automatikablauf Kran"
+  },
+  {
+    "Name": "DB70_Kurvenanforderung",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB70_Kurventranfer",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB70_Laser_FuellH_IST",
+    "Display_Name": "Laserscanner F�llh�he ist [mm]"
+  },
+  {
+    "Name": "DB70_Laser_FuellH_IST_av",
+    "Display_Name": "Laserscanner F�llh�he ist [mm] gegl�ttet"
+  },
+  {
+    "Name": "DB70_LIM_Bunker_Ost_TOL",
+    "Display_Name": "Begrenzung Katze im Bunker Ost (=LimBunkerOst + TOL)"
+  },
+  {
+    "Name": "DB70_LIM_Bunker_West_TOL",
+    "Display_Name": "Begrenzung Katze im Bunker West (=LimBunkerWest - TOL)"
+  },
+  {
+    "Name": "DB71_H_RAW",
+    "Display_Name": "Rohmesswert von Scanner"
+  },
+  {
+    "Name": "DB71_Hoehe",
+    "Display_Name": "F�llh�he gegl�ttet"
+  },
+  {
+    "Name": "DB76_GewLadungAbgeladen_kg",
+    "Display_Name": "Gewicht der abgeladen Ladung"
+  },
+  {
+    "Name": "DB76_T_SENK_IST",
+    "Display_Name": "akt. Senkzeit Greifer bis entlastet [s]"
+  },
+  {
+    "Name": "DB76_Ziel_HVG",
+    "Display_Name": "Ziel Vergaserlinie Nr. (Beschickungsziel)"
+  },
+  {
+    "Name": "DB79_DSP_SCAN_INDEX",
+    "Display_Name": "Anzeige aktueller ScanIndex Array"
+  },
+  {
+    "Name": "DB79_IdxMax",
+    "Display_Name": "F�llh�he ArrayIndex Kurve DB71 bei max Schleppzeiger"
+  },
+  {
+    "Name": "DB79_POS_AUFN",
+    "Display_Name": "Aufnhameposition (Position IndexMax von SCAN)"
+  },
+  {
+    "Name": "DB79_PosMax",
+    "Display_Name": "F�llh�he Position Katze bei max. Schleppzeiger"
+  },
+  {
+    "Name": "DB79_SchleppHmax",
+    "Display_Name": "F�llh�he max. Schleppzeiger"
+  },
+  {
+    "Name": "DB92_DSP_FUELL_IST",
+    "Display_Name": "F�llstand ist %"
+  },
+  {
+    "Name": "DB998_cfgREGLER_PI01_GAIN",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB998_cfgREGLER_PI01_TI",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB998_cfgREGLER_PI02_GAIN",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB998_cfgREGLER_PI02_TI",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB998_cfgREGLER_PI03_GAIN",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB998_cfgREGLER_PI03_TI",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB998_cfgREGLER_PI05_GAIN",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB998_cfgREGLER_PI05_TI",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB998_cfgREGLER_PI07_GAIN",
+    "Display_Name": ""
+  },
+  {
+    "Name": "DB998_cfgREGLER_PI07_TI",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FALSE",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_001_016",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_017_032",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_033_048",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_049_064",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_065_080",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_081_096",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_097_112",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_113_128",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_129_144",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_145_160",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_161_176",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_177_192",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_193_208",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_209_224",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_225_240",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_241_256",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_257_272",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_273_288",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_289_304",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_305_320",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_321_336",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_337_352",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_353_368",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_369_384",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_385_400",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_401_416",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_417_432",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_433_448",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_449_464",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_465_480",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_481_496",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_497_512",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_513_528",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_529_544",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_545_560",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_561_576",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_577_592",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_593_608",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_609_624",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_625_640",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_641_656",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_657_672",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_673_688",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_689_704",
+    "Display_Name": ""
+  },
+  {
+    "Name": "FAULT\\\\ERR_705_720",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Filter1",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Filter10",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Filter2",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Filter3",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Filter4",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Filter5",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Filter6",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Filter7",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Filter8",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Filter9",
+    "Display_Name": ""
+  },
+  {
+    "Name": "HauptSchaltschrank_TempMax",
+    "Display_Name": ""
+  },
+  {
+    "Name": "HauptSchaltschrank_TempMax_OLD",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Hilfslinien_Visible",
+    "Display_Name": ""
+  },
+  {
+    "Name": "KRAN_CHARGEN_AKT",
+    "Display_Name": "udt_cntDINT: Statistic Counter UDT_290, f�r FC290"
+  },
+  {
+    "Name": "KRAN_CHARGEN_ALT",
+    "Display_Name": "udt_cntDINT: Statistic Counter UDT_290, f�r FC290"
+  },
+  {
+    "Name": "KRAN_CHARGEN_ERR_AKT",
+    "Display_Name": "udt_cntDINT: Statistic Counter UDT_290, f�r FC290"
+  },
+  {
+    "Name": "KRAN_CHARGEN_ERR_ALT",
+    "Display_Name": "udt_cntDINT: Statistic Counter UDT_290, f�r FC290"
+  },
+  {
+    "Name": "KRAN_GEWICHT_AKT",
+    "Display_Name": "udt_cntDINT: Statistic Counter UDT_290, f�r FC290"
+  },
+  {
+    "Name": "KRAN_GEWICHT_ALT",
+    "Display_Name": "udt_cntDINT: Statistic Counter UDT_290, f�r FC290"
+  },
+  {
+    "Name": "Null",
+    "Display_Name": ""
+  },
+  {
+    "Name": "RAUM_Elektro_TempMax",
+    "Display_Name": ""
+  },
+  {
+    "Name": "RAUM_Elektro_TempMax_OLD",
+    "Display_Name": ""
+  },
+  {
+    "Name": "RAUM_Elektro_TempMin",
+    "Display_Name": ""
+  },
+  {
+    "Name": "RAUM_Elektro_TempMin_OLD",
+    "Display_Name": ""
+  },
+  {
+    "Name": "RAUM_Elektro_ZulMax",
+    "Display_Name": ""
+  },
+  {
+    "Name": "RAUM_Elektro_ZulMax_OLD",
+    "Display_Name": ""
+  },
+  {
+    "Name": "RAUM_Elektro_ZulMin",
+    "Display_Name": ""
+  },
+  {
+    "Name": "RAUM_Elektro_ZulMin_OLD",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_01",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_02",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_03",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_04",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_05",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_06",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_07",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_08",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_09",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_10",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_11",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_12",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_13",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_14",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_15",
+    "Display_Name": ""
+  },
+  {
+    "Name": "SRVC_16",
+    "Display_Name": ""
+  },
+  {
+    "Name": "TANK_SETUP_NO",
+    "Display_Name": ""
+  },
+  {
+    "Name": "TEST",
+    "Display_Name": ""
+  },
+  {
+    "Name": "timTest",
+    "Display_Name": ""
+  },
+  {
+    "Name": "timTestDint",
+    "Display_Name": ""
+  },
+  {
+    "Name": "TRK_SchaltSchrank_FU_TempMax",
+    "Display_Name": ""
+  },
+  {
+    "Name": "TRK_SchaltSchrank_FU_TempMax_OLD",
+    "Display_Name": ""
+  },
+  {
+    "Name": "TRUE",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Visible_0_Hand",
+    "Display_Name": ""
+  },
+  {
+    "Name": "Visible_0_Hand_Auto",
+    "Display_Name": ""
+  }
+]

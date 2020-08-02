@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: metrics-relay
+  labels:
+    app: metrics-relay
+    metricsRelay: holzgas
+spec:
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 50%
+  selector:
+    matchLabels:
+      app: metrics-relay
+  template:
+    metadata:
+      labels:
+        app: metrics-relay
+        metricsRelay: holzgas
+    spec:
+      imagePullSecrets:
+        - name: regcred
+      containers:
+        - name: metrics-relay
+          image: registry.gitlab.com/powercraftgmbh/zenonmetricsexporter/metrics-relay:f9a805d0988d7d229b5a8b6bd6779ee7b6f57020
+          envFrom:
+            - configMapRef:
+                name: metrics-relay
+            - secretRef:
+                name: influx-acc
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "50m"
+          ports:
+            - containerPort: 8001
+          readinessProbe:
+            httpGet:
+              path: /metrics
+              port: 8001
+            failureThreshold: 30
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /metrics
+              port: 8001
+            initialDelaySeconds: 20
+            periodSeconds: 20
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: metrics-relay
+  labels:
+    app: metrics-relay
+    metricsRelay: holzgas
+spec:
+  selector:
+    app: metrics-relay
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8001

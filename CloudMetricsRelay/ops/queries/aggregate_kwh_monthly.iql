@@ -1,0 +1,7 @@
+SELECT sum(*) INTO "powercraft_kpi"."autogen"."monthly_energy_production" 
+FROM "powercraft_kpi"."autogen"."hourly_energy_production"
+WHERE time >= '{{startOfLastMonth}}' AND time <= '{{endOfLastMonth}}'
+---
+SELECT sum(*) INTO "powercraft_kpi"."autogen"."monthly_energy_production" 
+FROM "powercraft_kpi"."autogen"."hourly_energy_production"
+WHERE time >= '{{startOfThisMonth}}' AND time <= '{{endOfThisMonth}}'

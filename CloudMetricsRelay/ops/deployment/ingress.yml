@@ -1,0 +1,69 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: Middleware
+metadata:
+  name: strip-metrics-relay-prefix
+  namespace: powercraft
+spec:
+  stripPrefix:
+    prefixes:
+      - /metrics-relay
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: metrics-relay
+  namespace: powercraft
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-connect-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "3600"
+    nginx.ingress.kubernetes.io/send-timeout: "3600"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+    traefik.ingress.kubernetes.io/router.tls: "false"
+    kubernetes.io/ingress.allow-http: "true"
+    traefik.ingress.kubernetes.io/router.middlewares: powercraft-strip-metrics-relay-prefix@kubernetescrd
+spec:
+  rules:
+    - host: pinzberg.kuhn.host
+      http:
+        paths:
+          - backend:
+              serviceName: metrics-relay
+              servicePort: 80
+            path: /metrics-relay
+  tls:
+    - hosts:
+        - pinzberg.kuhn.host
+      secretName: pinzberg-relay-tls
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: metrics-relay-tls
+  namespace: powercraft
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-connect-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "3600"
+    nginx.ingress.kubernetes.io/send-timeout: "3600"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+    traefik.ingress.kubernetes.io/router.tls: "true"
+    kubernetes.io/ingress.allow-http: "true"
+    traefik.ingress.kubernetes.io/router.middlewares: powercraft-strip-metrics-relay-prefix@kubernetescrd
+spec:
+  rules:
+    - host: pinzberg.kuhn.host
+      http:
+        paths:
+          - backend:
+              serviceName: metrics-relay
+              servicePort: 80
+            path: /metrics-relay
+  tls:
+    - hosts:
+        - pinzberg.kuhn.host
+      secretName: pinzberg-relay-tls

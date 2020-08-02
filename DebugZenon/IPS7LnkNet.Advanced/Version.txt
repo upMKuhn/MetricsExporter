@@ -1,0 +1,284 @@
+= 13.09.2019 - V1.9.1.1
+* Fixed     Performance issue with PlcDeviceConnection.ReadValues(IEnumerable<PlcType>).
+
+= 24.06.2019 - V1.9.1.0
+* Changed   TSAP encoding now uses ISO-8859-1 instead of Windows-1252 for better .NET Standard support.
+
+= 15.05.2019 - V1.9.0.0
+* New       Prepared the framework for use under .NET Standard 2.0 and .NET Core 2.0 or higher.
+
+= 13.05.2019 - V1.8.2.3 =
+* Fixed     Exception when accessing the IPS7 class directly.
+
+= 09.05.2019 - V1.8.2.2 =
+* Fixed     Issue with connecting to S7-200.
+
+= 03.04.2019 - V1.8.2.1 =
+* Fixed     Issue when loading IPS7LnkNet.Advanced as embedded resource.
+* Fixed     Exception when accessing the LicenseInfo property on the Licenser class.
+* Changed   In the samples, adjusted methods Read<T>() and Write<T>(T instance) to
+            ReadObject<T>() and WriteObject<T>(T instance) and updated target
+            framework to .NET Framework 4.0.
+
+= 20.03.2019 - V1.8.2.0 =
+* New       Support for S7-1500 to determine sizes of data blocks.
+* New       Upgraded to .NET Framework 4.0.
+* New       Introduced the LicenseInfo property on all Licenser class to provide some information
+            about the license conditions used.
+
+= 07.04.2018 - V1.8.1.1 =
+* Fixed     Issue with Virtual device provider which returned NoData in case there is no data
+            written yet.
+* Fixed     Issue with wrong assignment of pooled connection channels when there a new channel is
+            to be created although an existing channel would match the connection setup.
+
+= 06.04.2018 - V1.8.1.0 =
+* New       Implemented connection pooling using new channel based device communication layer. This
+            allows to create multiple connection objects using the same lower channel based
+            communication layer in case there the end point and device setup of one or more
+            connections matches together. To enable this feature PlcDeviceConnection.UsePool is to
+            be set to the value true. The default value is false to keep the previous behaviour and
+            to additionally support multiple independent connections e.g. one for read and one for
+            write operations.
+* Fixed     Issue with wrong forwarded inner exception which resulted into a ArgumentNullException
+            instead of a expected PlcException with the according InnerException.
+* Fixed     Issues with sometimes not correctly updated status information, especially on PlcType
+            based status information.
+
+= 20.02.2018 - V1.8.0.2 =
+* Fixed     Issue with implicitly using LReal when using "double" as the type of a member in a PlcObject.
+
+= 17.12.2017 - V1.8.0.1 =
+* Fixed     Issue with wrong WriteLReal.
+
+= 17.12.2017 - V1.8.0.0 =
+* New       Implemented support for LInt, LWord and LReal data types.
+* New       Implemented support for local and remote TSAP in IPDeviceEndPoint.
+* New       Implemented additional ctors in SiemensDevice to simplify object creation.
+* New       Implemented support for host name based PLC addressing, see DnsDeviceEndPoint.
+
+= 14.11.2017 - V1.7.3.0 =
+* New       Implemented additional overload for Read<T>() to read data into an existing PlcObject
+            in case there the concrete PlcObject does not provide a default constructor.
+* Changed   Renamed methods Read<T>() and Write<T>(T instance) to ReadObject<T>() and
+            WriteObject<T>(T instance) to provide parameterized Read overloads which do not
+            collidate with other Read methods.
+
+= 28.11.2017 - V1.7.2.4 =
+* Fixed     Issue with connecting to Logo 8.x PLC.
+
+= 04.09.2017 - V1.7.2.3 =
+* Fixed     Issue with reading the maximum number of characters in case of
+            using PlcString.GetValue.
+
+= 30.05.2017 - V1.7.2.2 =
+* Fixed     Issue with reading data areas reaching the limits of a data block.
+* Fixed     Issue with reading string values longer than 221 characters.
+
+= 08.04.2017 - V1.7.2.1 =
+* Fixed     Issue reading data using ReadValues(PlcType[]|IEnumabler<PlcType>) : object[], which
+            led to a "shrinked" result. This "shrinked" result was produced in case there the same
+            PlcType is used multiple times the data was only provided for one of them.
+
+= 12.10.2016 - V1.7.2.0 =
+* New       Changed sequence/logic within that IPlcValue.Changed events were raised so far. Until
+            this version a Changed event has been raised during reading the value(s) as long the
+            connection is in synchronized state. This mean so far that a subsequent operation
+            using the same connection within the Changed event handler + separate thread results
+            into a deadlock. Beginning from this version (V1.7.2.0) the Changed events are raised
+            afterwards the synchronized state of the connection has been exited.
+
+= 28.09.2016 - V1.7.1.1 =
+* Fixed     Issue with missing week of day portion in PlcDateTime.
+
+= 28.09.2016 - V1.7.1.0 =
+* New       Implemented deep-value change verification in PlcArray instances to also raise the
+            Changed event whenever at least one item in the array gets changed during a value
+            read operation.
+
+= 11.03.2016 - V1.7.0.0 =
+* New       Implemented optimized Multi-Write (WriteValues) to longer write each value within one
+            transaction. This does now speed up the performance when writing multipe values at once.
+
+= 24.02.2015 - V1.6.9.2 =
+* Fixed     Removed internal buffered read request cache to improve low level driver optimization.
+            This does also fix issues with reading the same string values at once.
+
+= 20.01.2016 - V1.6.9.1 =
+* New       Upgraded to IPS7LnkNet V1.1.77.6
+            * Fixed     MultiRead using PlcString since V1.1.77.5:
+                        In case of using MultiRead to read the same PlcString multiple times the driver decremented
+                        the length of the string. As soon the length reached a value lower than zero the MultiRead
+                        did throw an exception.
+
+= 27.12.2015 - V1.6.9.0 =
+* New       Implemented method to retrieve PLC block information like the existence or size of a
+            DataBlock defined in a PLC device.
+* New       Implemented PlcOperand creation using string values.
+
+= 16.12.2015 - V1.6.8.1 =
+* Fixed     Issue with ReadValues using PlcString data which addresses data areas which
+            reach the end of a datablock.
+
+= 15.09.2015 - V1.6.8.0 =
+* Fixed     Issue with unresolved locking situations in multi-threaded environments when an
+            exception occured during the connection is about being used by multiple threads
+            at the same time.
+
+= 04.09.2015 - V1.6.7.2 =
+* New       New product icon.
+
+= 03.03.2015 - V1.6.7.1 =
+* Fixed     InvalidCastException while reading a Bool[] using ReadBoolean.
+
+= 26.02.2015 - V1.6.7.0 =
+* New       Implemented SiemensChannelType enumeration on SiemensDevice to manage the type of
+            channel to use on a connection created by the SiemensDevice instead to manage
+            it via the generic PlcDeviceConnection using the PlcDeviceConnectionType.
+            In general a channel type is only relevant for the Siemens provider. Therefore the
+            PlcDeviceConnectionType will become obsolete in future releases.
+* New       Implemented IsDisposed property to internal indiciate, that a PlcDeviceConnection
+            is diposed of.
+* New       Improved GetInfo() method on SiemensDeviceConnection to not longer produce
+            re-occuring connection status changes and status evaluations.
+* Fixed     Wrong calculation of End Address of PlcType instances representing a Bool[].
+* New       Implemented check in PlcType to disallow the use of a different PlcAddress.RawType as
+            Bit for PlcType instances with PlcTypeCode.Bool.
+
+= 24.02.2015 - V1.6.6.1 =
+* New       Reworked implementation to better take use of the maximum string length property
+            (Length). Additionally care about the PlcString.MinLength and PlcString.MaxLength
+            and do not longer pad value with whitespaces.
+* Fixed     Issue with wrong type of buffer array (changed short buffer to float buffer).
+* New       Fixed issue with out dated return data from ReadValues and simplified some Read
+            methods to take more use of the EnumerableHelper.
+
+= 23.02.2015 - V1.6.6.0 =
+* New       Reworked PlcStatus to internally LatestXXX properties to directly get/set the current
+            status information without the need to end initialization to get the latest status
+            information while processing within a PLC operation context.
+* New       In case of Multi-Read (ReadValues) and Multi-Write (WriteValues) the connection does
+            not longer reflect data status codes. Data status codes are now stored on the
+            connection using the PlcType used and on each IPlcValue instance specific PlcStatus.
+
+=  19.02.2015 - V1.6.5.0 =
+* New       Improved Exception and Status information.
+* New       Improved Status and Value change handling in transactional way.
+* Fixed     Multi-Threaded problem in PlcType.Of(...)
+
+= 09.02.2015 - V1.6.4.0 =
+* New       Implemented new overloads for GetValue and SetValue. Additionally implemented
+            ValidateValue. Furthermore reworked mechanism to get and set the Value property and
+            the implementation of GetValue and SetValue to better integrate with new solutions and
+            provide more meaningful codeflows for deriving classes.
+* Fixed     Fixed issues with reading and writing char values.
+* New       Upgraded to IPS7LnkNet V1.0.74.0
+            * Fixed     Connection to PLC didn't repair itself automatically.
+            * Fixed     Using threads with connections: License expired appeard several times.
+* New       BETA: Implemented new beta features like PlcAttachedValue and PlcDelegateValue.
+
+= 15.12.2014 - V1.6.3.4 =
+* Fixed     Issue with duplicate PlcOperand instances in multi-threaded environments.
+
+= 09.12.2014 - V1.6.3.3 =
+* Fixed     Issue with reading reference data (array data) using ReadValues on a
+            PlcDeviceConnection instance which lead to overridden data on reading same address
+            areas by the same PlcType and to a reference to the internal data buffer. Furthermore
+            user specific reference data was overridden with a reference to the internal data
+            buffer.
+
+= 28.11.2014 - V1.6.3.2 =
+* Fixed     Issue with failed auto connect attempts then starting a communication while the
+            network device is disabled at start and enabled during further connect/access
+            attempts.
+* New       Updated IPS7LnkNet (V1.73): Logo/S7-200 license managment implemented.
+
+= 23.11.2014 - V1.6.2.1 =
+* Fixed     Issue with default values when reading data using ReadValues.
+
+= 07.11.2014 - V1.6.2.0 =
+* Fixed     Changed base class of PlcException from ExternalException to Exception, because upon
+            the unerlaying PLC layer does not longer belong to any External (unmanaged) API.
+            Furthermore this change does lead to a fully support of the use in Windows Store Apps.
+
+= 12.09.2014 - V1.6.1.0 =
+* New       Added new connection state Disconnected.
+* New       Extended global notitications with new event ConnectionDisconnected.
+* New       Extended abstract base class PlcDeviceConnection with new event Disconnected.
+* New       Reworked connection state handling to determine during each interaction with a
+            connection whether a connection is either in connected or disconnected state.
+
+= 28.08.2014 - V1.6.0.0 =
+* New       Added setter to generic IPlcValue<T> interface to also support setting the Value
+            property.
+* New       (Internal) Implemented PlcValueFactory which creates according IPlcValue/IPlcValue<T>
+            instances using PlcType information.
+* New       (Internal) Added PlcStatus.Changed handling using PlcNotifications in
+            PlcDeviceConnection through a general changed event handler instead of always
+            implementing PlcNotifications calls after updating the local PlcStatus object. This
+            ensures that on each update the PlcNotifications class is used to evaluate the new
+            status information.
+* New       New event ConnectionCreated on PlcNotifications which occurs always after a new
+            PlcDeviceConnection has been created.
+* New       New events Connecting and Connected on PlcDeviceConnection which inform about that a
+            connection to a device is about and has been fully established.
+* New       New event StateChanged on PlcDeviceConnection which informs about any change to the
+            State property of the PlcDeviceConnection.
+* New       New event ConnectionStateChanged on PlcNotifications which informs about any change to
+            the State property of any PlcDeviceConnection.
+* New       New property IsConnected on PlcDeviceConnection which indicates whether a connection to
+            a device has been fully established.
+* New       New method Connect() on PlcDeviceConnection to manually fully establish a connection to
+            a device.
+* Removed   State change to Faulted after a PlcDeviceConnection has been disposed of.
+* New       The data status cache of a PlcDeviceConnection does not always contain the same
+            PlcStatus instance. This allows to subscribe on status changes on PlcType specific
+            PlcStatus objects.
+* New       The PlcConnectionState enum does now define the new states Connecting and Connected.
+* New       The PlcConnectionStateChangedEventArgs class is used by the new StateChanged event on
+            PlcDeviceConnection and does provide OldState and NewState properties.
+* Changed   The previous PlcDeviceConnectionEventArgs class is now a subclass of PlcNotifications.
+            Because it is specific to the events provided by the PlcNotifications class and does
+            therefore on one hand provide the PlcDeviceConnection affected, because there is no
+            sender provided by the events and on the other hand it would conflict with the new
+            PlcDeviceConnectionEventArgs which does not provide the event source connection.
+* Changed   Renamed the ValidateStatusDelegate to EvaluateStatusDelegate to better match the
+            concept behind that the callback is used. Additionally added a bool as return type to
+            indicate that framework specific evaluation is to be performed.
+* New       (Internal) Implemented Referesh method on DataBuffer class used by the
+            SiemensDeviceConnection to update the internal buffer data after its internal
+            descriptor has been changed.
+* New       (Internal) Reduced API calls to GetSockErr() in SiemensDeviceConnection.
+* New       Implemented exception handling in VirtualDeviceConnection to ensure that all PlcDevice
+            provider implementations do behave in the same way.
+* New       Implemented exception handling in WebDeviceConnection to ensure that all PlcDevice
+            provider implementations do behvae in the same way. Additionally adjusted the existing
+            exception handling to match the expected behavior.
+* New       Implemented Exception property on PlcStatus which provides the according PlcException
+            instance initialized with the status information provided by a PlcStatus instance.
+* New       Implemented InnerException property on PlcStatus which provides the most recent
+            Exception instance thrown by an internal operation. This property is additionally
+            synchronized with the SocketCode property.
+* New       Implemented TimeStamp property on PlcStatus which does indicate the DateTime of the
+            most recent update of the status meta data provided by the PlcStatus.
+* New       Implemented Type property on PlcStatus which does provide the PlcType information of
+            the PlcType used by the most recent operation.
+* New       (Internal) Implemented Copy() method on PlcStatus to create a deep copy of a PlcStatus.
+* New       (Internal) Implemented additional overloads to the Update() method on PlcStatus to
+            also update the new status meta data (InnerException, Type).
+* New       (Internal) Reworked implementation of the Update() method on PlcStatus to always update
+            its whole status information and not only on different status data (as before). This
+            does now also include that a Changed event is always raised when ever Update() is
+            called.
+* New       All abstract Read/Write methods on PlcDeviceConnection are now called using at least
+            one PlcType. This instance does now obsolete previous parameters likes
+            address:PlcAddress, count:int or length:int.
+
+= 12.08.2014 - V1.5.8.2 =
+* New       Internal Changed event on PlcDeviceEndPoint which occurs on any changes made on an
+            endpoint.
+* Fixed     Reset cached connection in PlcDevice in case of any endpoint changes.
+* New       General exception handling on each API call to the Siemens provider.
+
+= 21.07.2014 - V1.5.8.1 =
+* Fixed     Wrong calculation of S5TIME values (cause: high and low byte had to be reversed).

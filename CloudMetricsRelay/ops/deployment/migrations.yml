@@ -1,0 +1,32 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: migrate--aggregate-kwh-hourly
+  namespace: powercraft
+spec:
+  backoffLimit: 1
+  template:  
+    spec:
+      imagePullSecrets:
+        - name: regcred
+      restartPolicy: Never
+      containers:
+        - name: migrate--aggregate-kwh-hourly
+          envFrom:
+            - configMapRef:
+                name: metrics-relay
+            - secretRef:
+                name: redis-powercraft
+            - secretRef:
+                name: influx-acc
+          image: registry.gitlab.com/powercraftgmbh/zenonmetricsexporter/metrics-relay:latest
+          command: [ "node"]
+          args:
+            - --experimental-modules
+            - /app/src/cmd/execute_query.mjs
+            - powercraft_kpi
+            - /app/ops/queries/aggregate_kwh_hourly.iql
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "50m"
