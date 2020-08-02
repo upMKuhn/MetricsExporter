@@ -1,7 +1,7 @@
-import { MetricsRepository } from './metrics-repository.js'
+import { MetricsRepository } from '../repository/metrics-repository.js'
 import * as WebSocket from 'ws'
 
-export class MetricsImporter {
+export class MetricsController {
     /**
      * @type {WebSocket} ws
      */
@@ -44,7 +44,7 @@ export class MetricsImporter {
             //throw error
         }
         if (!data['serviceName']) {
-            console.error('serviceName was not provided', new Date().toISOString())
+            console.error('serviceName was not provided', new Date().toISOString(), body)
             this.ws.close(1008, 'serviceName was not provided')
         }
         if (!data['metrics']) {

@@ -4,7 +4,8 @@ import { default as http } from 'http'
 import { default as url } from 'url'
 import { default as Prometheus } from 'prom-client'
 import { default as Redis } from 'redis'
-import { MetricsRepository, MetricsImporter } from './repository/index.js'
+import { MetricsRepository } from './repository/index.js'
+import { MetricsController } from './controller/metrics-controller.mjs'
 import { HolzgasTransformer, KranTransformer } from './transformer/index.js'
 import * as config from './utils/config.js'
 import { makeInfluxConnection } from './utils/index.js'
@@ -27,7 +28,7 @@ import { makeInfluxConnection } from './utils/index.js'
         process.env.INFLUX_KPI_DB || config.DEFAULT_INFLUX_KPI_DB
     ).ca
 
-    let metricsImporters = []
+    let metricsControllers = []
     let metricTransformers = {
         BR_Metrics: new HolzgasTransformer(influxMetricsClient),
         Kran_Metrics: new KranTransformer(redisClient, influxMetricsClient, influxKpiClient),
@@ -63,7 +64,7 @@ import { makeInfluxConnection } from './utils/index.js'
     }
 
     wss.on('connection', (ws) => {
-        const importer = new MetricsImporter(ws, metricsRepo)
+        const controller = new MetricsController(ws, metricsRepo)
         ws.on('open', heartbeat)
         ws.on('pong', heartbeat)
         ws.on('close', function clear() {
@@ -87,9 +88,9 @@ import { makeInfluxConnection } from './utils/index.js'
             new Date().toISOString()
         )
 
-        metricsImporters.push(importer)
+        metricsControllers.push(controller)
         wss.on('close', () => {
-            metricsImporters = metricsImporters.filter((value) => value != importer)
+            metricsControllers = metricsControllers.filter((value) => value != controller)
         })
     })
 
