@@ -17,10 +17,6 @@ I think a diagram speaks a 1000 words to explain the whole set up. Its basically
 | Chronograf UI      | Query data, Display graphs and create dashboards        | Current interface to Influxdb                             |
 | InfluxDb           | Store , Query, intervals aggregation, trash old metrics | InfluxDB an time series database for lage volumes of data |
 
-### Current state
-
-This project is currently on hold due hold due to difficulty of remote collaboration with stakeholders and free time constraints.  
-
 
 ### Closing thoughts
 Reverse engineer, the PLC controllers, was the most challenging and rewarding part of this project. It fascinated me to learn how industrial automation components work. It is a simple low-level computer with a network interface that exposes its variables using a memory address register and fix sized data types.  
